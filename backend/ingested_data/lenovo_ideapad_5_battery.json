@@ -1,0 +1,60 @@
+{
+  "device_model": "IdeaPad 5",
+  "brand": "lenovo",
+  "component": "battery",
+  "steps": [
+    {
+      "step_id": 1,
+      "action": "Connect the docking station to ac power.",
+      "source_primary": "OEM",
+      "source_supporting": [],
+      "tools": [],
+      "risk_level": "safe",
+      "image": "assets/lenevo_thinkpad.pdf/step1.jpg",
+      "overlay_anchors": [],
+      "video_timestamp": null,
+      "warnings": []
+    },
+    {
+      "step_id": 2,
+      "action": "Disconnect the cables and devices from the left side of the computer.",
+      "source_primary": "OEM",
+      "source_supporting": [],
+      "tools": [],
+      "risk_level": "safe",
+      "image": "assets/lenevo_thinkpad.pdf/step2.jpg",
+      "overlay_anchors": [],
+      "video_timestamp": null,
+      "warnings": []
+    },
+    {
+      "step_id": 3,
+      "action": "Turn the system lock key to the unlocked position (",
+      "source_primary": "OEM",
+      "source_supporting": [],
+      "tools": [],
+      "risk_level": "safe",
+      "image": "assets/lenevo_thinkpad.pdf/step3.jpg",
+      "overlay_anchors": [],
+      "video_timestamp": null,
+      "warnings": []
+    },
+    {
+      "step_id": 4,
+      "action": "Align the top-left corner of the computer with the guide post of the docking station. Attach your",
+      "source_primary": "OEM",
+      "source_supporting": [],
+      "tools": [],
+      "risk_level": "safe",
+      "image": "assets/lenevo_thinkpad.pdf/step4.jpg",
+      "overlay_anchors": [],
+      "video_timestamp": null,
+      "warnings": []
+    }
+  ],
+  "sources_used": [
+    "OEM"
+  ],
+  "ingested_at": "2025-12-03T16:33:02.752416",
+  "total_steps": 4
+}

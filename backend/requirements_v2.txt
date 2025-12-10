@@ -1,0 +1,31 @@
+# ML-Powered Diagnosis Engine V2 Dependencies
+
+# Core ML
+torch>=2.0.0
+transformers>=4.30.0
+sentence-transformers>=2.2.0
+
+# Vision Models
+pillow>=10.0.0
+opencv-python>=4.8.0
+
+# API
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+python-multipart>=0.0.6
+
+# LLM Integration (optional)
+openai>=1.0.0  # For GPT-4 question generation
+anthropic>=0.7.0  # For Claude question generation
+
+# Database
+psycopg2-binary>=2.9.0
+sqlalchemy>=2.0.0
+
+# Vector search
+faiss-cpu>=1.7.4  # or faiss-gpu for GPU acceleration
+
+# Utilities
+numpy>=1.24.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0

@@ -1,0 +1,961 @@
+[
+  {
+    "issue_type": "no_boot",
+    "symptoms": [
+      "computer does not start"
+    ],
+    "solution_steps": [
+      "Press (Num Lock) to disable the numeric keypad if numbers are displayed instead of letters.",
+      "Verify the number-lock light is not turned on.",
+      "Press the [Ctrl] +[Shift] + [Esc] keys simultaneously.",
+      "Click Task Manager > Applications.",
+      "Select the program that is no longer responding.",
+      "Click All Programs > Accessories > Program Compatibility Wizard > Next.",
+      "Follow the instructions on the screen."
+    ],
+    "tools_needed": [],
+    "warnings": [
+      "You might lose data if you are unable to perform an operating system shutdown.",
+      "Software usually includes installation instructions in its documentation or on a floppy disk, CD, or DVD."
+    ],
+    "raw_text": "nal keyboard. Contact Dell.\nRun the Keyboard Diagnostics Tests\nRun the PC-AT Compatible Keyboards tests in the Dell Diagnostics. If the tests indicate a defective external keyboard, Contact Dell.\nUnexpected Characters\nIf you encounter any unexpected characters, disable the numeric keypad. To disable the numeric keypad:\n1.\nPress (Num Lock) to disable the numeric keypad if numbers are displayed instead of letters.\n2.\nVerify the number-lock light is not turned on.\nLockups and Software Problems\nThe computer does not start\nEnsure that the AC adapter is firmly connected to the computer and to the electrical outlet.\nThe computer stops responding\nNOTE: You might lose data if you are unable to perform an operating system shutdown.\nTurn the computer OFF - If you are unable to get a response by pressing a key on your keyboard or moving your Troubleshooting \nmouse, press and hold the power button for at least 8 to 10 seconds until the computer turns off. Then restart your computer.\nTroubleshooting Your Computer\n51\nA program stops responding or crashes repeatedly\nNOTE: Software usually includes installation instructions in its documentation or on a floppy disk, CD, or DVD.\nEnd the program -\n1.\nPress the [Ctrl] +[Shift] + [Esc] keys simultaneously.\n2.\nClick Task Manager > Applications.\n3.\nSelect the program that is no longer responding.\n4.\nClick End Task.\nCheck the software documentation - If necessary, uninstall and then re-install the program.\nA program is designed for an earlier Microsoft Windows \noperating system\nRun the program compatibility wizard - The Program Compatibility Wizard configures a program so it runs in an environment similar to \nWindows XP operating system environments.\n1.\nClick All Programs > Accessories > Program Compatibility Wizard > Next.\n2.\nFollow the instructions on the screen.\nA solid blue screen appears\nTurn the computer OFF - If you are unable to get a response by pressing a key on your keyboard or moving your mouse, press and hold \nthe Power button for at least 8 to 10 seconds until the computer turns off. Then restart your computer.\nOther software problems\nCheck the software documentation or contact the manufacturer for troubleshooting information -\n•\nEnsure that the program is compatible with the operating system installed on your computer.\n•\nEnsure that your computer meets the minimum hardware requirements needed to run the software. See the software documentation \nfor information.\n•\nEnsure that the program is installed and configured properly.\n•\nVerify that ",
+    "confidence": 0.8,
+    "source_file": "dell.pdf",
+    "brand": "dell",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "no_boot",
+    "symptoms": [
+      "will not start"
+    ],
+    "solution_steps": [
+      "See the printer documentation for cable connection information.",
+      "Ensure that the printer cables are securely connected to the printer and the computer"
+    ],
+    "tools_needed": [],
+    "warnings": [
+      "Before you begin any of the procedures in this section, follow the safety instructions in the Owner’s Manual.",
+      "If you need technical assistance for your printer, contact the printer’s manufacturer."
+    ],
+    "raw_text": "ttery charge is low or depleted. \nConnect the computer to an electrical outlet.\nIf the battery status light flashes green and orange, the battery is too hot to charge. Shut down the computer, disconnect the computer \nfrom the electrical outlet, and then let the battery and computer cool to room temperature.\nIf the battery status light rapidly flashes orange, the battery may be defective. Contact Dell.\nCheck the battery temperature - If the battery temperature is below 0 °C (32 °F), the computer will not start up.\nTest the electrical outlet - Ensure that the electrical outlet is working by testing it with another device, such as a lamp.\nCheck the AC adapter - Check the AC adapter cable connections. If the AC adapter has a light, ensure that the light is on.\nConnect the computer directly to an electrical outlet - Bypass power protection devices, power strips, and the extension cable to \nverify that the computer turns on.\nEliminate possible interference - Turn off nearby fans, fluorescent lights, halogen lamps, or other appliances.\nReseat the memory modules - If the computer power light turns on but the display remains blank, re-install the memory modules.\nEnsuring Sufficient Power for Your Computer\nYour computer is designed to use a 65 W or 90 W AC adapter. However, for optimum system performance, you should always use a 90 W \nadapter.\nUsing less-powerful AC adapters, will cause you to receive a WARNING message.\nTroubleshooting Your Computer\n53\nDocking Power Considerations\nIf a computer is connected to a Dell docking station while the computer is running, presence of the docking device is ignored until the AC \nadapter is connected to the computer.\nDocking While the Computer Is Running\nIf a computer is connected to a Dell docking station while the computer is running, presence of the docking device is ignored until the AC \nadapter is connected to the computer.\nAC Power Loss While the Computer Is Docked\nIf a computer loses AC power while docked to a Dell docking station, the computer immediately goes into low-performance mode.\nPrinter Problems\nCAUTION: Before you begin any of the procedures in this section, follow the safety instructions in the Owner’s Manual.\nNOTE: If you need technical assistance for your printer, contact the printer’s manufacturer.\nEnsure that the printer is turned on\nCheck the printer cable connections\n•\nSee the printer documentation for cable connection information.\n•\nEnsure that the printer cables are securely connected to the printer and the computer",
+    "confidence": 0.8,
+    "source_file": "dell.pdf",
+    "brand": "dell",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "battery_issue",
+    "symptoms": [
+      "power adapter"
+    ],
+    "solution_steps": [
+      "Reinstall the battery.",
+      "Use the AC adapter to connect the computer to an electrical outlet.",
+      "Turn on the computer."
+    ],
+    "tools_needed": [],
+    "warnings": [
+      "Before you begin any of the procedures in this section, follow the safety instructions in the Safety and",
+      "Before you begin any of the procedures in this section, follow the safety instructions in the Safety and"
+    ],
+    "raw_text": ".\nNetwork Problems\nCAUTION: Before you begin any of the procedures in this section, follow the safety instructions in the Safety and \nRegulatory Information documents.\nGeneral\nCheck the network-cable connector - Ensure that the network cable is firmly inserted into both, the network connector on the back of \nthe computer and the network connector.\nCheck the network lights on the network connector - No light indicates that no network communication exists. Replace the network \ncable.\nPlug the A/C power adapter into the computer - If battery power only, the QuickSet utility can disable the onboard network card to \nsave battery life.\nCheck your network settings - Contact your network administrator or the person who set up your network to verify that your network \nsettings are correct and that the network is functioning.\nPower Problems\nCAUTION: Before you begin any of the procedures in this section, follow the safety instructions in the Safety and \nRegulatory Information documents.\nCheck the power light - When the power light is lit or blinking, the computer has power. If the power light is blinking, the computer is in \nstandby mode - press the Power button to exit the standby mode. If the light is off, press the Power button to turn on the computer.\nCharge the battery -The battery charge may be depleted.\n1.\nReinstall the battery.\n2.\nUse the AC adapter to connect the computer to an electrical outlet.\n3.\nTurn on the computer.\nNOTE: Battery operating time (the time the battery can hold a charge) decreases over time. Depending on how often \nthe battery is used and the conditions under which it is used, you may need to purchase a new battery during the life of \nyour computer.\nCheck the battery status light - If the battery status light flashes orange or is a steady orange the battery charge is low or depleted. \nConnect the computer to an electrical outlet.\nIf the battery status light flashes green and orange, the battery is too hot to charge. Shut down the computer, disconnect the computer \nfrom the electrical outlet, and then let the battery and computer cool to room temperature.\nIf the battery status light rapidly flashes orange, the battery may be defective. Contact Dell.\nCheck the battery temperature - If the battery temperature is below 0 °C (32 °F), the computer will not start up.\nTest the electrical outlet - Ensure that the electrical outlet is working by testing it with another device, such as a lamp.\nCheck the AC adapter - Check the AC adapter cable connections. If the",
+    "confidence": 0.8,
+    "source_file": "dell.pdf",
+    "brand": "dell",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "battery_issue",
+    "symptoms": [
+      "power adapter"
+    ],
+    "solution_steps": [
+      "If you are traveling internationally, carry proof of ownership—or of your right to use the computer if it is company-owned—to speed",
+      "Find out what type of electrical outlets are used in the countries you will visit, and have appropriate power adapters.",
+      "Check with your credit card / Insurance company for information about the kinds of emergency travel assistance it offers to users of",
+      "Ensure that you have a charged battery available in case you are asked to turn on the computer."
+    ],
+    "tools_needed": [],
+    "warnings": [
+      "Do not take the computer through a metal detector. Send the computer through an X-ray machine or have it hand-inspected. •"
+    ],
+    "raw_text": "ent options to maximize battery operating time.\n•\nIf you are traveling internationally, carry proof of ownership—or of your right to use the computer if it is company-owned—to speed \nyour passage through customs. Investigate the customs regulations of the countries you plan to visit, and consider acquiring an \ninternational carnet (also known as a merchandise passport) from your government.\n•\nFind out what type of electrical outlets are used in the countries you will visit, and have appropriate power adapters.\n•\nCheck with your credit card / Insurance company for information about the kinds of emergency travel assistance it offers to users of \nportable computers.\nTraveling by Air\nNOTE: Do not take the computer through a metal detector. Send the computer through an X-ray machine or have it \nhand-inspected.\n•\nEnsure that you have a charged battery available in case you are asked to turn on the computer.\n62\nGetting Help and Contacting Dell\nPrior to entering the airplane, verify that using a computer is permitted. Some airlines forbid the use of electronic devices during flight. \nAll airlines forbid the use of electronic devices during takeoff and landing.\nGetting Help and Contacting Dell\n63\nPro Support\nSupport Services for End Users and IT \nProfessionals\nMinimize disruptions and maintain a high level of productivity through Dell's suite of support services that you can tailor to align with your \norganization's entire IT landscape.\nDell offers world-class support services such as ProSupport service to fit any size and type of business. Dell Support services provide end \nusers and IT professionals with various remote and on-site technical support solutions for all of your Dell and non Dell hardware and \nsoftware needs. Dell provides customers with world-class remote technical support with several different options and levels of on-site \nsupport, ranging from next business day to two-hour response times.\nDell can also assist with proactive problem avoidance, remote monitoring and self-support options to help you maximize productivity. We \nhave expertise in supporting specialized applications and technology, such as virtualization, systems management and Microsoft products. \nOur Global Command Centers track parts and labor dispatches around the clock to help meet your critical IT needs with prompt, \ncomprehensive support to help you solve even the most complex problems. Speak to a Dell Services representative to help you choose \nthe support services that best suit your busine",
+    "confidence": 0.8,
+    "source_file": "dell.pdf",
+    "brand": "dell",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "battery_issue",
+    "symptoms": [
+      "battery life"
+    ],
+    "solution_steps": [
+      "Connect the computer to an electrical outlet when possible because battery life is largely determined by the number of times the",
+      "Place the computer in standby mode or hibernate mode when you leave the computer unattended for long periods of time.",
+      "Use the Power Management Wizard to select options to optimize your computer’s power usage. These options can also be set to",
+      "Solid green: The battery is charging.",
+      "Flashing green: The battery is almost fully charged.",
+      "Off: The battery is adequately charged (or external power is not available to charge the battery).",
+      "Off: The battery is adequately charged (or the computer is turned off).",
+      "Flashing orange: The battery charge is low.",
+      "Solid orange: The battery charge is critically low.",
+      "Switching the Image From Computer Display to a Projector",
+      "Making Images and Text Look Bigger or Sharper on the Screen: Setting Display Resolution and Refresh Rat"
+    ],
+    "tools_needed": [],
+    "warnings": [
+      "If the battery health is rated Fair or Poor, a link to ‘order a new battery’ will appear.",
+      "Brightness key combinations only affect the display on your portable computer, not monitors or projectors that you attach to your portable computer or docking device. If your computer is connected to an external monitor and you try to change the brightness level, the Brightness Meter may appear, but the brightness level on the external device does not change."
+    ],
+    "raw_text": ". Green denotes that there are \nno problems, while yellow and red requires your attention.\nThis screen also gives you more information like, if the battery installed is a Dell-branded battery, the battery manufacturer, and the \nbattery's serial number.\nNOTE: If the battery health is rated Fair or Poor, a link to ‘order a new battery’ will appear.\nConserving Battery Power\nPerform the following actions to conserve battery power:\n•\nConnect the computer to an electrical outlet when possible because battery life is largely determined by the number of times the \nbattery is used and recharged.\n•\nPlace the computer in standby mode or hibernate mode when you leave the computer unattended for long periods of time.\n•\nUse the Power Management Wizard to select options to optimize your computer’s power usage. These options can also be set to \nchange when you press the power button, close the display, or press <Fn><Esc>\nStoring a Battery\nRemove the battery when you store your computer for an extended period of time. A battery discharges during prolonged storage. After a \nlong storage period, recharge the battery fully before you use it.\nIf the computer is connected to an electrical outlet, the battery indicator light operates as follows:\n•\nSolid green: The battery is charging.\n•\nFlashing green: The battery is almost fully charged.\n•\nOff: The battery is adequately charged (or external power is not available to charge the battery).\nIf the computer is running on a battery, the battery indicator light operates as follows:\n•\nOff: The battery is adequately charged (or the computer is turned off).\n•\nFlashing orange: The battery charge is low.\n•\nSolid orange: The battery charge is critically low.\n12\nUsing The Battery\nUsing the Display\nAdjusting Brightness\nWhen a Dell computer is running on battery power, you can conserve power by setting the display brightness to the lowest comfortable \nsetting by pressing <Fn> and the up- or down-arrow key on the keyboard.\nNOTE: Brightness key combinations only affect the display on your portable computer, not monitors or projectors that \nyou attach to your portable computer or docking device. If your computer is connected to an external monitor and you \ntry to change the brightness level, the Brightness Meter may appear, but the brightness level on the external device \ndoes not change.\nTopics:\n•\nSwitching the Image From Computer Display to a Projector\n•\nMaking Images and Text Look Bigger or Sharper on the Screen: Setting Display Resolution and Refresh Rat",
+    "confidence": 0.8,
+    "source_file": "dell.pdf",
+    "brand": "dell",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "battery_issue",
+    "symptoms": [
+      "battery life"
+    ],
+    "solution_steps": [
+      "Reinstall the battery.",
+      "Use the AC adapter to connect the computer to an electrical outlet.",
+      "Turn on the computer."
+    ],
+    "tools_needed": [],
+    "warnings": [
+      "Before you begin any of the procedures in this section, follow the safety instructions in the Safety and",
+      "Battery operating time (the time the battery can hold a charge) decreases over time. Depending on how often the battery is used and the conditions under which it is used, you may need to purchase a new battery during the life of your computer."
+    ],
+    "raw_text": "fety and \nRegulatory Information documents.\nGeneral\nCheck the network-cable connector - Ensure that the network cable is firmly inserted into both, the network connector on the back of \nthe computer and the network connector.\nCheck the network lights on the network connector - No light indicates that no network communication exists. Replace the network \ncable.\nPlug the A/C power adapter into the computer - If battery power only, the QuickSet utility can disable the onboard network card to \nsave battery life.\nCheck your network settings - Contact your network administrator or the person who set up your network to verify that your network \nsettings are correct and that the network is functioning.\nPower Problems\nCAUTION: Before you begin any of the procedures in this section, follow the safety instructions in the Safety and \nRegulatory Information documents.\nCheck the power light - When the power light is lit or blinking, the computer has power. If the power light is blinking, the computer is in \nstandby mode - press the Power button to exit the standby mode. If the light is off, press the Power button to turn on the computer.\nCharge the battery -The battery charge may be depleted.\n1.\nReinstall the battery.\n2.\nUse the AC adapter to connect the computer to an electrical outlet.\n3.\nTurn on the computer.\nNOTE: Battery operating time (the time the battery can hold a charge) decreases over time. Depending on how often \nthe battery is used and the conditions under which it is used, you may need to purchase a new battery during the life of \nyour computer.\nCheck the battery status light - If the battery status light flashes orange or is a steady orange the battery charge is low or depleted. \nConnect the computer to an electrical outlet.\nIf the battery status light flashes green and orange, the battery is too hot to charge. Shut down the computer, disconnect the computer \nfrom the electrical outlet, and then let the battery and computer cool to room temperature.\nIf the battery status light rapidly flashes orange, the battery may be defective. Contact Dell.\nCheck the battery temperature - If the battery temperature is below 0 °C (32 °F), the computer will not start up.\nTest the electrical outlet - Ensure that the electrical outlet is working by testing it with another device, such as a lamp.\nCheck the AC adapter - Check the AC adapter cable connections. If the AC adapter has a light, ensure that the light is on.\nConnect the computer directly to an electrical outlet - Bypass power ",
+    "confidence": 0.8,
+    "source_file": "dell.pdf",
+    "brand": "dell",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "black_screen",
+    "symptoms": [
+      "display problem"
+    ],
+    "solution_steps": [
+      "Click Start > Control Panel > Appearance and Themes .",
+      "Click the area you want to change or click the Display icon.",
+      "Try different settings for Color quality and Screen resolution.",
+      "Shut down your computer and connect an external monitor to the computer.",
+      "Turn on the computer and the monitor. Then, adjust the monitor brightness and contrast controls.",
+      "Go to dell.com/ContactDell.",
+      "Select your country or region.",
+      "Select the appropriate servic"
+    ],
+    "tools_needed": [],
+    "warnings": [
+      "If you do not have an active Internet connection, you can find contact information on your purchase invoice, packing slip, bill, or Dell product catalog."
+    ],
+    "raw_text": "er \nappliances.\nRotate the computer to face a different direction\nEliminate sunlight glare, which can cause poor picture quality.\nAdjust the Windows display settings\nEliminate sunlight glare, which can cause poor picture quality.\n1.\nClick Start > Control Panel > Appearance and Themes .\n2.\nClick the area you want to change or click the Display icon.\n3.\nTry different settings for Color quality and Screen resolution.\nRun the video diagnostics test - If no error message appears and you still have a display problem, but the display is not completely \nblank, run the Video device group in the Dell Diagnostics.\nIf only part of the display is readable\nConnect an external monitor -\n1.\nShut down your computer and connect an external monitor to the computer.\n2.\nTurn on the computer and the monitor. Then, adjust the monitor brightness and contrast controls.\nIf the external monitor works, the computer display or video controller may be defective. Contact Dell.\nTroubleshooting Your Computer\n57\nGetting Help and Contacting Dell\nIf you need information about Dell products or services, or if you experience problems using your computer, you can get help from one of \nthe self-help resources, or you can call Dell to get help from a Dell technician.\nSelf-Help Options\n•\nAccess Windows Help and Support by clicking Start → Help and Support.\n•\nSee the Microsoft Website, microsoft.com, for more information about your Microsoft Windows operating system.\nYou can learn about Dell product and services at the following websites:\n•\ndell.com\n•\ndell.com/ap (Asian/Pacific countries only)\n•\ndell.com/jp (Japan only)\n•\neuro.dell.com/content/default.aspx (Europe only)\n•\ndell.com/la (Latin American and Caribbean countries)\n•\ndell.com/ca (Canada only)\nThe Dell Support site, http://www.dell.com/support provides access to troubleshooting wizards, user manuals, technical help blogs, \ndownload Dell driver and software updates, and so on.\nContacting Dell\nCustomers in the United States, call 800-WWW-DELL (800-999-3355).\nNOTE: If you do not have an active Internet connection, you can find contact information on your purchase invoice, \npacking slip, bill, or Dell product catalog.\nDell provides several online and telephone based support and service options. Availability varies by country and product, and some services \nmay not be available in your area. To contact Dell for sales, technical support, or customer service issues:\n1.\nGo to dell.com/ContactDell.\n2.\nSelect your country or region.\n3.\nSelect the appropriate servic",
+    "confidence": 0.8,
+    "source_file": "dell.pdf",
+    "brand": "dell",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "no_boot",
+    "symptoms": [
+      "no power"
+    ],
+    "solution_steps": [
+      "Establish communication between your computer and your wireless router.",
+      "Configure your wireless router to communicate with your broadband router.",
+      "Find out your wireless router’s broadcast name. The technical term for the name of your router’s"
+    ],
+    "tools_needed": [],
+    "warnings": [
+      "Wait for a minimum of 5 minutes after disconnecting your broadband modem before you continue with the network setup. 7",
+      "Restart your wireless equipment in the order described below to prevent a potential connection failure. 11"
+    ],
+    "raw_text": "ording to the manufacturer's instructions. \n4\nShut down your computer and any other wireless-enabled computers in the vicinity through the Start \nmenu. \n5\nDisconnect your broadband modem power cable from the electrical outlet.\n6\nDisconnect the network cable from the computer and the modem.\n NOTE: Wait for a minimum of 5 minutes after disconnecting your broadband modem before you continue with the \nnetwork setup.\n7\nDisconnect the AC adapter cable from your wireless router to ensure that there is no power connected \nto the router.\n8\nInsert a network cable into the network (RJ-45) connector on the unpowered broadband modem.\n72\nSetting Up a Network\n9\nConnect the other end of the network cable into the Internet network (RJ-45) connector on the \nunpowered wireless router.\n10\nEnsure that no network or USB cables, other than the network cable connecting the modem and the \nwireless router, are connected to the broadband modem.\n NOTE: Restart your wireless equipment in the order described below to prevent a potential connection failure.\n11\nTurn on only your broadband modem and wait for at least 2 minutes for the broadband modem to \nstabilize. After 2 minutes, proceed to step 12.\n12\nTurn on your wireless router and wait for at least 2 minutes for the wireless router to stabilize. After \n2 minutes, proceed to the step 13.\n13\nStart your computer and wait until the boot process completes.\n14\nSee the documentation that came with your wireless router to do the following in order to set up the \nwireless router:\n•\nEstablish communication between your computer and your wireless router.\n•\nConfigure your wireless router to communicate with your broadband router.\n•\nFind out your wireless router’s broadcast name. The technical term for the name of your router’s \nbroadcast name is Service Set Identifier (SSID) or network name.\n15\nIf necessary, configure your wireless network card to connect to the wireless network. See \"Connecting \nto a Wireless Local Area Network\" on page 72.\nConnecting to a Wireless Local Area Network\n NOTE: Before you connect to a WLAN, ensure that you have followed the instructions in \"Wireless Local Area \nNetwork (WLAN)\" on page 70.\n NOTE: The following networking instructions do not apply to internal cards with Bluetooth® wireless technology \nor cellular products.\nThis section provides general procedures for connecting to a network via wireless technology. Specific \nnetwork names and configuration details vary. See \"Wireless Local Area Network (WLAN)\" on page 70 \nf",
+    "confidence": 0.8,
+    "source_file": "dell6400x_owner's manual_en-us.pdf",
+    "brand": "dell",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "overheating",
+    "symptoms": [
+      "overheating"
+    ],
+    "solution_steps": [
+      "Dial-up connections that provide Internet access through a telephone line. Dial-up connections",
+      "DSL connections that provide high-speed Internet access through your existing telephone line.",
+      "Cable modem connections that provide high-speed Internet access through your local cable TV",
+      "If you do not have an ISP and want to select one, click Choose from a list of Internet service"
+    ],
+    "tools_needed": [],
+    "warnings": [
+      "ISPs and ISP offerings vary by country."
+    ],
+    "raw_text": "ng the computer to an \nelectrical outlet. For more information, see \"Using a Battery\" on page 39.\nHARD DRIVE — Stores software and data. For more information, see \"Hard Drive\" on page 112 and \"Hard drive \nproblems\" on page 84.\nMODEM/MEMORY MODULE COVER — Covers the compartment that contains the modem and the memory modules. \nFor more information, see \"Modem\" on page 117 and \"Memory\" on page 114.\nFAN — The computer uses a fan to create airflow through the vents, which prevents the computer from \noverheating. \n1\nbattery charge gauge\n4\nbattery\n7\nfan\n2\noptical-drive locking screw\n5\nhard drive\n3\nbattery-bay latch release\n6\nmodem/memory module \ncover\n6\n7\n4\n3\n1\n2\n5\nSetting Up Your Computer\n25\nSetting Up Your Computer\nConnecting to the Internet\n NOTE: ISPs and ISP offerings vary by country.\nTo connect to the Internet, you need a modem or network connection and an Internet service \nprovider (ISP). Your ISP will offer one or more of the following Internet connection options:\n•\nDial-up connections that provide Internet access through a telephone line. Dial-up connections \nare considerably slower than DSL and cable modem connections.\n•\nDSL connections that provide high-speed Internet access through your existing telephone line. \nWith a DSL connection, you can access the Internet and use your telephone on the same line \nsimultaneously.\n•\nCable modem connections that provide high-speed Internet access through your local cable TV \nline.\nIf you are using a dial-up connection, connect a telephone line to the modem connector on your \ncomputer and to the telephone wall jack before you set up your Internet connection. If you are using \na DSL or cable modem connection, contact your ISP for setup instructions.\nSetting Up Your Internet Connection\nTo set up an Internet connection with a provided ISP desktop shortcut:\n1\nSave and close any open files, and exit any open programs.\n2\nDouble-click the ISP icon on the Microsoft® Windows® desktop.\n3\nFollow the instructions on the screen to complete the setup.\nIf you do not have an ISP icon on your desktop or if you want to set up an Internet connection with \na different ISP:\n1\nSave and close any open files, and exit any open programs.\n2\nClick the Start button and click Internet Explorer.\nThe New Connection Wizard appears.\n3\nClick Connect to the Internet.\n4\nIn the next window, click the appropriate option:\n•\nIf you do not have an ISP and want to select one, click Choose from a list of Internet service \nproviders (ISPs).\n26\nSetting Up Your Computer\n•",
+    "confidence": 0.8,
+    "source_file": "dell6400x_owner's manual_en-us.pdf",
+    "brand": "dell",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "battery_issue",
+    "symptoms": [
+      "power adapter"
+    ],
+    "solution_steps": [
+      "If you are traveling internationally, carry proof of ownership—or of your right to use the computer if it",
+      "Find out what type of electrical outlets are used in the countries you will visit, and have appropriate",
+      "Check with your credit card company for information about the kinds of emergency travel assistance it",
+      "Ensure that you have a charged battery available in case you are asked to turn on the computer.",
+      "Prior to entering the airplane, verify that using a computer is permitted. Some airlines forbid the use of",
+      "support.dell.com (support)"
+    ],
+    "tools_needed": [],
+    "warnings": [
+      "Toll-free numbers are for use within the country for which they are listed. NOTE: In certain countries, support specific to Dell™ XPS™ computers is available at a separate telephone number listed for participating countries. If you do not see a telephone number listed that is specific for XPS computers, you may contact Dell through the support number listed and your call will be routed appropriately.",
+      "The contact information provided was deemed correct at the time that this document went to print and is subject to change."
+    ],
+    "raw_text": " page 43) to maximize battery operating time.\n•\nIf you are traveling internationally, carry proof of ownership—or of your right to use the computer if it \nis company-owned—to speed your passage through customs. Investigate the customs regulations of \nthe countries you plan to visit, and consider acquiring an international carnet (also known as a \nmerchandise passport) from your government.\n•\nFind out what type of electrical outlets are used in the countries you will visit, and have appropriate \npower adapters.\n•\nCheck with your credit card company for information about the kinds of emergency travel assistance it \noffers to users of portable computers.\nTraveling by Air\n NOTICE: Do not walk the computer through a metal detector. Send the computer through an X-ray machine or \nhave it hand-inspected.\n•\nEnsure that you have a charged battery available in case you are asked to turn on the computer.\n•\nPrior to entering the airplane, verify that using a computer is permitted. Some airlines forbid the use of \nelectronic devices during flight. All airlines forbid the use of electronic devices during takeoff and \nlanding.\nContacting Dell\n133\nContacting Dell\nTo contact Dell electronically, you can access the following websites:\n•\nwww.dell.com\n•\nsupport.dell.com (support)\nFor specific web addresses for your country, find the appropriate country section in the table below. \n NOTE: Toll-free numbers are for use within the country for which they are listed.\n NOTE: In certain countries, support specific to Dell™ XPS™ computers is available at a separate telephone \nnumber listed for participating countries. If you do not see a telephone number listed that is specific for XPS \ncomputers, you may contact Dell through the support number listed and your call will be routed appropriately.\nWhen you need to contact Dell, use the electronic addresses, telephone numbers, and codes \nprovided in the following table. If you need assistance in determining which codes to use, contact a \nlocal or an international operator. \n NOTE: The contact information provided was deemed correct at the time that this document went to print and \nis subject to change.\nCountry (City)\nInternational Access Code \nCountry Code\nCity Code\nDepartment Name or Service Area,\nWebsite and E-Mail Address\nArea Codes,\nLocal Numbers, and\nToll-Free Numbers\nAnguilla\nWebsite: www.dell.com.ai\nE-mail: la-techsupport@dell.com\nTechnical Support\ntoll-free: 800-335-0031\nAntigua and Barbuda \nWebsite: www.dell.com.ag\nE-mail: la-techsupport@dell",
+    "confidence": 0.8,
+    "source_file": "dell6400x_owner's manual_en-us.pdf",
+    "brand": "dell",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "battery_issue",
+    "symptoms": [
+      "battery life"
+    ],
+    "solution_steps": [
+      "Connect the computer to an electrical outlet when possible because battery life is largely determined",
+      "Place the computer in standby mode or hibernate mode when you leave the computer unattended for",
+      "Use the Power Management Wizard to select options to optimize your computer’s power usage. These",
+      "Click the Start button, click Turn off computer, and then click Stand by.",
+      "Depending on how you set the power management options on the Advanced tab (see \"Configuring"
+    ],
+    "tools_needed": [],
+    "warnings": [
+      "See \"Battery Performance\" on page 39 for more information on conserving battery power."
+    ],
+    "raw_text": "letely out of power, hibernate mode begins \nautomatically.\nBy default, a pop-up window warns you when the battery charge is approximately 90 percent depleted. \nYou can change the settings for the battery alarms. See \"Configuring Power Management Settings\" on \npage 43 for information about accessing QuickSet or the Power Options Properties window.\nConserving Battery Power\nPerform the following actions to conserve battery power:\n•\nConnect the computer to an electrical outlet when possible because battery life is largely determined \nby the number of times the battery is used and recharged.\n•\nPlace the computer in standby mode or hibernate mode when you leave the computer unattended for \nlong periods of time. See \"Power Management Modes\" on page 41 for more information about standby \nand hibernate modes.\n•\nUse the Power Management Wizard to select options to optimize your computer’s power usage. These \noptions can also be set to change when you press the power button, close the display, or press \n<Fn><Esc>. See \"Configuring Power Management Settings\" on page 43 for more information on \nusing the Power Management Wizard.\n NOTE: See \"Battery Performance\" on page 39 for more information on conserving battery power.\nPower Management Modes\nStandby Mode\nStandby mode conserves power by turning off the display and the hard drive after a predetermined \nperiod of inactivity (a time-out). When the computer exits standby mode, it returns to the same \noperating state it was in before entering standby mode.\n NOTICE: If your computer loses AC and battery power while in standby mode, it may lose data.\n42\nUsing a Battery\nTo enter standby mode:\n•\nClick the Start button, click Turn off computer, and then click Stand by.\nor\n•\nDepending on how you set the power management options on the Advanced tab (see \"Configuring \nPower Management Settings\" on page 43) in the Power Options Properties window, use one of the \nfollowing methods:\n–\nPress the power button.\n–\nClose the display.\n–\nPress <Fn><Esc>.\nTo exit standby mode, press the power button or open the display depending on how you set the options \non the Advanced tab. You cannot make the computer exit standby mode by pressing a key or touching \nthe touch pad.\nHibernate Mode\nHibernate mode conserves power by copying system data to a reserved area on the hard drive and then \ncompletely turning off the computer. When the computer exits hibernate mode, it returns to the same \noperating state it was in before entering hibernate mode.\n NOTICE: You ca",
+    "confidence": 0.8,
+    "source_file": "dell6400x_owner's manual_en-us.pdf",
+    "brand": "dell",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "battery_issue",
+    "symptoms": [
+      "battery life"
+    ],
+    "solution_steps": [
+      "1 mm (2.37 inches) (9 cell)",
+      "48 kg (1.06 lb) (9 cell)",
+      "32 kg (0.7 lb) (6 cell)",
+      "34 A (maximum at 4-second pulse);",
+      "34 A (65 W) (continuous)",
+      "62 A (90 W) (continuous)"
+    ],
+    "tools_needed": [],
+    "warnings": [
+      "Your operating system may automatically configure most of the options available in the system setup program, thus overriding options that you set through the system setup program. (An exception is the External"
+    ],
+    "raw_text": "ns:\nDepth\n60.1 mm (2.37 inches) (9 cell)\n49 mm (1.93 inches) (6 cell)\nHeight\n24 mm (0.94 inch)\nWidth\n206.8 mm (8.14 inches)\nWeight\n0.48 kg (1.06 lb) (9 cell) \n0.32 kg (0.7 lb) (6 cell)\nVoltage\n11.1 VDC\nCharge time (approximate):\nComputer off\n2 hours\nOperating time\nBattery operating time varies depending on \noperating conditions and can be significantly \nreduced under certain power-intensive \nconditions. See \"Power Problems\" on \npage 94. \nSee \"Using a Battery\" on page 39 for more \ninformation on battery life.\nLife span (approximate)\n300 discharge/charge cycles\n160\nSpecifications\nTemperature range:\nOperating\n0° to 35°C (32° to 95°F)\nStorage\n–40° to 60°C (–40° to 140°F)\nCoin-cell battery\nCR-2032\nAC Adapter\nInput voltage\n90–264 VAC\nInput current (maximum)\n1.5 A\nInput frequency\n47–63 Hz\nOutput current\n4.34 A (maximum at 4-second pulse); \n3.34 A (65 W) (continuous)\n4.62 A (90 W) (continuous)\nOutput power\n65 W or 90 W\nRated output voltage\n19.5 +/–1.0 VDC\nDimensions:\nHeight\n28.2 mm (1.11 inches) \nWidth\n57.9 mm (2.28 inches) \nDepth\n137.2 mm (5.4 inches) \nWeight (with cables)\n0.4 kg (0.9 lb) \nTemperature range:\nOperating\n0° to 35°C (32° to 95°F) \nStorage\n–40° to 65°C (–40° to 149°F)\nPhysical\nHeight\n36 mm (1.42 inches) \nWidth\n356 mm (14.02 inches)\nDepth\n265.5 mm (10.45 inches)\nWeight (with 6-cell battery):\nConfigurable to less than\n2.9 kg (6.38 lb)\nBattery (continued)\nSpecifications\n161\nEnvironmental\nTemperature range:\nOperating\n0° to 35°C (32° to 95°F)\nStorage\n–40° to 65°C (–40° to 149°F)\nRelative humidity (maximum):\nOperating\n10% to 90% (noncondensing)\nStorage\n5% to 95% (noncondensing)\nMaximum vibration (using a \nrandom-vibration spectrum that \nsimulates user environment):\nOperating\n0.9 GRMS\nStorage\n1.3 GRMS\nMaximum shock (measured with \nhard drive in head-parked position \nand a 2-ms half-sine pulse):\nOperating\n122 G\nStorage\n163 G\nAltitude (maximum):\nOperating\n–15.2 to 3048 m (–50 to 10,000 ft)\nStorage\n–15.2 to 10,668 m (–50 to 35,000 ft)\n162\nSpecifications\nAppendix\n163\nAppendix\nUsing the System Setup Program\n NOTE: Your operating system may automatically configure most of the options available in the system setup \nprogram, thus overriding options that you set through the system setup program. (An exception is the External \nHot Key option, which you can disable or enable only through the system setup program.) For more information \non configuring features for your operating system, see the Windows Help and Support Center. To access the \nHelp and Support Center, see \"Windows He",
+    "confidence": 0.8,
+    "source_file": "dell6400x_owner's manual_en-us.pdf",
+    "brand": "dell",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "no_boot",
+    "symptoms": [
+      "no power"
+    ],
+    "solution_steps": [
+      "Connect the AC adapter to the computer and to external power.",
+      "Exit Hibernation by pressing the power button.",
+      "Type support in the taskbar search box, and then select the HP Support Assistant app.",
+      "Select Troubleshooting and fixes, and then in the Diagnostics section, select HP Battery Check. If HP"
+    ],
+    "tools_needed": [],
+    "warnings": [],
+    "raw_text": "shuts down and loses any unsaved information.\n●\nIf Hibernation is enabled and the computer is on or in the Sleep state, the computer initiates \nHibernation.\nRunning on battery power\n31\nResolving a low battery level\nResolving a low battery level when external power is available\nConnect one of the following to the computer and to external power:\n●\nAC adapter\n●\nOptional docking device or expansion product\n●\nOptional power adapter purchased as an accessory from HP\nResolving a low battery level when no power source is available\nSave your work and shut down the computer.\nResolving a low battery level when the computer cannot exit Hibernation\n1.\nConnect the AC adapter to the computer and to external power.\n2.\nExit Hibernation by pressing the power button.\nFactory-sealed battery\nTo monitor the status of the battery, or if the battery is no longer holding a charge, run HP Battery Check in \nthe HP Support Assistant app (select products only).\n1.\nType support in the taskbar search box, and then select the HP Support Assistant app.\n– or –\nSelect the question mark icon in the taskbar.\n2.\nSelect Troubleshooting and fixes, and then in the Diagnostics section, select HP Battery Check. If HP \nBattery Check indicates that your battery should be replaced, contact support.\nThe battery[ies] in this product cannot be easily replaced by users themselves. Removing or replacing the \nbattery could affect your warranty coverage. If a battery is no longer holding a charge, contact support.\nRunning on external power\nFor information about connecting to external power, refer to the Setup Instructions poster provided in the \ncomputer box.\nThe computer does not use battery power when the computer is connected to external power with an \napproved AC adapter or an optional docking device or expansion product.\nWARNING!\nTo reduce potential safety issues, use only the AC adapter provided with the computer, a \nreplacement AC adapter provided by HP, or a compatible AC adapter purchased from HP.\nWARNING!\nDo not charge the computer battery while you are aboard aircraft.\nConnect the computer to external power under any of the following conditions:\n●\nWhen charging or calibrating a battery\n●\nWhen installing or updating system software\n●\nWhen updating the system BIOS\n●\nWhen writing information to a disc (select products only)\n32\nChapter 6   Managing power\n●\nWhen running Disk Defragmenter on computers with internal hard drives\n●\nWhen performing a backup or recovery\nWhen you connect the computer to external powe",
+    "confidence": 0.8,
+    "source_file": "hp.pdf",
+    "brand": "hp",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "overheating",
+    "symptoms": [
+      "overheating"
+    ],
+    "solution_steps": [
+      "Service label—Provides important information to identify your computer. When contacting support, you",
+      "Regulatory label(s)—Provide(s) regulatory information about the computer.",
+      "Wireless certification label(s)—Provide(s) information about optional wireless devices and the approval"
+    ],
+    "tools_needed": [],
+    "warnings": [
+      "The airplane mode key is also referred to as the wireless button.",
+      "A wireless network must be set up before a wireless connection is possible. 12"
+    ],
+    "raw_text": "r restores speaker sound.\nTurns the airplane mode and wireless feature on or off.\nNOTE:\nThe airplane mode key is also referred to as the wireless button.\nNOTE:\nA wireless network must be set up before a wireless connection is possible.\n12\nChapter 2   Getting to know your computer\nBottom\nTable 2-9  Bottom components and their descriptions\nComponent\nDescription\nVent\nEnables airflow to cool internal components.\nNOTE:\nThe computer fan starts up automatically to cool \ninternal components and prevent overheating. It is normal \nfor the internal fan to cycle on and off during routine \noperation.\nRear \nTable 2-10  Rear components and their descriptions\nComponent\nDescription\nVents (2)\nEnable airflow to cool internal components.\nNOTE:\nThe computer fan starts up automatically to cool internal \ncomponents and prevent overheating. It is normal for the internal \nfan to cycle on and off during routine operation.\nLabels\nThe labels affixed to the computer provide information you may need when you troubleshoot system \nproblems or travel internationally with the computer. Labels may be in paper form or imprinted on the \nproduct.\nBottom\n13\nIMPORTANT:\nCheck the following locations for the labels described in this section: the bottom of the \ncomputer, inside the battery bay, under the service door, on the back of the display, or on the bottom of a \ntablet kickstand.\n●\nService label—Provides important information to identify your computer. When contacting support, you \nmay be asked for the serial number, the product number, or the model number. Locate this information \nbefore you contact support.\nYour service label will resemble one of the examples shown below. Refer to the illustration that most \nclosely matches the service label on your computer.\nTable 2-11  Service label components\nComponent\n \n(1)\nHP product name\n \n(2)\nModel number\n \n(3)\nProduct ID\n \n(4)\nSerial number\n \n(5)\nWarranty period\n \nTable 2-12  Service label components\nComponent\n \n(1)\nHP product name\n \n(2)\nProduct ID\n \n(3)\nSerial number\n \n(4)\nWarranty period\n \n●\nRegulatory label(s)—Provide(s) regulatory information about the computer.\n●\nWireless certification label(s)—Provide(s) information about optional wireless devices and the approval \nmarkings for the countries or regions in which the devices have been approved for use.\n14\nChapter 2   Getting to know your computer\n3\nConnecting to a network \nYour computer can travel with you wherever you go. But even at home, you can explore the globe and access \ninformation from millions of",
+    "confidence": 0.8,
+    "source_file": "hp.pdf",
+    "brand": "hp",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "overheating",
+    "symptoms": [
+      "overheating"
+    ],
+    "solution_steps": [
+      "Service label—Provides important information to identify your computer. When contacting support, you",
+      "Regulatory label(s)—Provide(s) regulatory information about the computer.",
+      "Wireless certification label(s)—Provide(s) information about optional wireless devices and the approval",
+      "WLAN device—Connects the computer to wireless local area networks"
+    ],
+    "tools_needed": [],
+    "warnings": [
+      "The computer fan starts up automatically to cool internal components and prevent overheating. It is normal for the internal fan to cycle on and off during routine operation.",
+      "The computer fan starts up automatically to cool internal components and prevent overheating. It is normal for the internal fan to cycle on and off during routine operation."
+    ],
+    "raw_text": " and their descriptions\nComponent\nDescription\nVent\nEnables airflow to cool internal components.\nNOTE:\nThe computer fan starts up automatically to cool \ninternal components and prevent overheating. It is normal \nfor the internal fan to cycle on and off during routine \noperation.\nRear \nTable 2-10  Rear components and their descriptions\nComponent\nDescription\nVents (2)\nEnable airflow to cool internal components.\nNOTE:\nThe computer fan starts up automatically to cool internal \ncomponents and prevent overheating. It is normal for the internal \nfan to cycle on and off during routine operation.\nLabels\nThe labels affixed to the computer provide information you may need when you troubleshoot system \nproblems or travel internationally with the computer. Labels may be in paper form or imprinted on the \nproduct.\nBottom\n13\nIMPORTANT:\nCheck the following locations for the labels described in this section: the bottom of the \ncomputer, inside the battery bay, under the service door, on the back of the display, or on the bottom of a \ntablet kickstand.\n●\nService label—Provides important information to identify your computer. When contacting support, you \nmay be asked for the serial number, the product number, or the model number. Locate this information \nbefore you contact support.\nYour service label will resemble one of the examples shown below. Refer to the illustration that most \nclosely matches the service label on your computer.\nTable 2-11  Service label components\nComponent\n \n(1)\nHP product name\n \n(2)\nModel number\n \n(3)\nProduct ID\n \n(4)\nSerial number\n \n(5)\nWarranty period\n \nTable 2-12  Service label components\nComponent\n \n(1)\nHP product name\n \n(2)\nProduct ID\n \n(3)\nSerial number\n \n(4)\nWarranty period\n \n●\nRegulatory label(s)—Provide(s) regulatory information about the computer.\n●\nWireless certification label(s)—Provide(s) information about optional wireless devices and the approval \nmarkings for the countries or regions in which the devices have been approved for use.\n14\nChapter 2   Getting to know your computer\n3\nConnecting to a network \nYour computer can travel with you wherever you go. But even at home, you can explore the globe and access \ninformation from millions of websites by using your computer and a wired or wireless network connection. \nThis chapter helps you get connected to that world.\nConnecting to a wireless network \nYour computer might be equipped with one or more of the following wireless devices:\n●\nWLAN device—Connects the computer to wireless local area networks ",
+    "confidence": 0.8,
+    "source_file": "hp.pdf",
+    "brand": "hp",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "battery_issue",
+    "symptoms": [
+      "power adapter"
+    ],
+    "solution_steps": [
+      "Connect the AC adapter to the computer and to external power.",
+      "Exit Hibernation by pressing the power button.",
+      "Type support in the taskbar search box, and then select the HP Support Assistant app.",
+      "Select Troubleshooting and fixes, and then in the Diagnostics section, select HP Battery Check. If HP"
+    ],
+    "tools_needed": [],
+    "warnings": [],
+    "raw_text": "n or in the Sleep state, the computer remains briefly in \nthe Sleep state and then shuts down and loses any unsaved information.\n●\nIf Hibernation is enabled and the computer is on or in the Sleep state, the computer initiates \nHibernation.\nRunning on battery power\n31\nResolving a low battery level\nResolving a low battery level when external power is available\nConnect one of the following to the computer and to external power:\n●\nAC adapter\n●\nOptional docking device or expansion product\n●\nOptional power adapter purchased as an accessory from HP\nResolving a low battery level when no power source is available\nSave your work and shut down the computer.\nResolving a low battery level when the computer cannot exit Hibernation\n1.\nConnect the AC adapter to the computer and to external power.\n2.\nExit Hibernation by pressing the power button.\nFactory-sealed battery\nTo monitor the status of the battery, or if the battery is no longer holding a charge, run HP Battery Check in \nthe HP Support Assistant app (select products only).\n1.\nType support in the taskbar search box, and then select the HP Support Assistant app.\n– or –\nSelect the question mark icon in the taskbar.\n2.\nSelect Troubleshooting and fixes, and then in the Diagnostics section, select HP Battery Check. If HP \nBattery Check indicates that your battery should be replaced, contact support.\nThe battery[ies] in this product cannot be easily replaced by users themselves. Removing or replacing the \nbattery could affect your warranty coverage. If a battery is no longer holding a charge, contact support.\nRunning on external power\nFor information about connecting to external power, refer to the Setup Instructions poster provided in the \ncomputer box.\nThe computer does not use battery power when the computer is connected to external power with an \napproved AC adapter or an optional docking device or expansion product.\nWARNING!\nTo reduce potential safety issues, use only the AC adapter provided with the computer, a \nreplacement AC adapter provided by HP, or a compatible AC adapter purchased from HP.\nWARNING!\nDo not charge the computer battery while you are aboard aircraft.\nConnect the computer to external power under any of the following conditions:\n●\nWhen charging or calibrating a battery\n●\nWhen installing or updating system software\n●\nWhen updating the system BIOS\n●\nWhen writing information to a disc (select products only)\n32\nChapter 6   Managing power\n●\nWhen running Disk Defragmenter on computers with internal hard drives\n●\nWhen ",
+    "confidence": 0.8,
+    "source_file": "hp.pdf",
+    "brand": "hp",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "battery_issue",
+    "symptoms": [
+      "battery life"
+    ],
+    "solution_steps": [
+      "Type support in the taskbar search box, and then select the HP Support Assistant app.",
+      "Select Troubleshooting and fixes, and then in the Diagnostics section, select HP Battery Check. If HP"
+    ],
+    "tools_needed": [
+      "HP Support Assistant provides the following tools and information about the battery:\n●\nHP Battery Check\n●\nInformation about battery types, specifications, life cycles, and capacity\nConserving battery power\nTo conserve battery power and maximize battery life:\n●\nLower the brightness of the d"
+    ],
+    "warnings": [
+      "When you disconnect external power, the display brightness is automatically decreased to conserve battery charge. Select computer products can switch between graphic controllers to conserve battery charge."
+    ],
+    "raw_text": "ce potential safety issues, use only the battery provided with the computer, a \nreplacement battery provided by HP, or a compatible battery purchased from HP. \nWhen a charged battery is in the computer and the computer is not plugged into external power, the computer \nruns on battery power. When the computer is off and unplugged from external power, the battery in the \ncomputer slowly discharges. The computer displays a message when the battery reaches a low or critical \nbattery level.\nComputer battery life varies, depending on power management settings, programs running on the computer, \nscreen brightness, external devices connected to the computer, and other factors.\nNOTE:\nWhen you disconnect external power, the display brightness is automatically decreased to conserve \nbattery charge. Select computer products can switch between graphic controllers to conserve battery charge.\nUsing HP Fast Charge (select products only)\nThe HP Fast Charge feature allows you to quickly charge your computer battery. Charging time may vary by \n+/- 10%. Depending on your computer model and the HP AC adapter provided with your computer, HP Fast \nCharge operates in one or more of the following ways:\n●\nWhen the remaining battery charge is between zero and 50%, the battery will charge to 50% of full \ncapacity in no more than 30 to 45 minutes, depending on your computer model.\n●\nWhen the remaining battery charge is between zero and 90%, the battery will charge to 90% of full \ncapacity in no more than 90 minutes.\nTo use HP Fast Charge, shut down your computer, and then connect the AC adapter to your computer and to \nexternal power.\n30\nChapter 6   Managing power\nDisplaying battery charge\nTo view the percentage of remaining battery charge, place the mouse pointer over the Power icon \n.\nFinding battery information in HP Support Assistant (select products only)\nTo access battery information:\n1.\nType support in the taskbar search box, and then select the HP Support Assistant app.\n– or –\nSelect the question mark icon in the taskbar.\n2.\nSelect Troubleshooting and fixes, and then in the Diagnostics section, select HP Battery Check. If HP \nBattery Check indicates that your battery should be replaced, contact support.\nHP Support Assistant provides the following tools and information about the battery:\n●\nHP Battery Check\n●\nInformation about battery types, specifications, life cycles, and capacity\nConserving battery power\nTo conserve battery power and maximize battery life:\n●\nLower the brightness of the d",
+    "confidence": 0.8,
+    "source_file": "hp.pdf",
+    "brand": "hp",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "battery_issue",
+    "symptoms": [
+      "battery life"
+    ],
+    "solution_steps": [
+      "Select Troubleshooting and fixes, and then in the Diagnostics section, select HP Battery Check. If HP",
+      "Connect the AC adapter to the computer and to external power.",
+      "Exit Hibernation by pressing the power button."
+    ],
+    "tools_needed": [
+      "HP Support Assistant provides the following tools and information about the battery:\n●\nHP Battery Check\n●\nInformation about battery types, specifications, life cycles, and capacity\nConserving battery power\nTo conserve battery power and maximize battery life:\n●\nLower the brightness of the display"
+    ],
+    "warnings": [
+      "For additional information about the Power icon, see Using the Power icon and Power Options on page 30."
+    ],
+    "raw_text": "t Assistant app.\n– or –\nSelect the question mark icon in the taskbar.\n2.\nSelect Troubleshooting and fixes, and then in the Diagnostics section, select HP Battery Check. If HP \nBattery Check indicates that your battery should be replaced, contact support.\nHP Support Assistant provides the following tools and information about the battery:\n●\nHP Battery Check\n●\nInformation about battery types, specifications, life cycles, and capacity\nConserving battery power\nTo conserve battery power and maximize battery life:\n●\nLower the brightness of the display.\n●\nTurn off wireless devices when you are not using them.\n●\nDisconnect unused external devices that are not plugged into an external power source, such as an \nexternal hard drive connected to a USB port.\n●\nStop, disable, or remove any external media cards that you are not using.\n●\nBefore you leave your work, initiate Sleep or shut down the computer.\nIdentifying low battery levels\nWhen a battery that is the sole power source for the computer reaches a low or critical battery level, the \nfollowing behavior occurs:\n●\nThe battery light (select products only) indicates a low or critical battery level.\n– or –\n●\nThe Power icon \n shows a low or critical battery notification.\nNOTE:\nFor additional information about the Power icon, see Using the Power icon and Power Options \non page 30.\nThe computer takes the following actions for a critical battery level:\n●\nIf Hibernation is disabled and the computer is on or in the Sleep state, the computer remains briefly in \nthe Sleep state and then shuts down and loses any unsaved information.\n●\nIf Hibernation is enabled and the computer is on or in the Sleep state, the computer initiates \nHibernation.\nRunning on battery power\n31\nResolving a low battery level\nResolving a low battery level when external power is available\nConnect one of the following to the computer and to external power:\n●\nAC adapter\n●\nOptional docking device or expansion product\n●\nOptional power adapter purchased as an accessory from HP\nResolving a low battery level when no power source is available\nSave your work and shut down the computer.\nResolving a low battery level when the computer cannot exit Hibernation\n1.\nConnect the AC adapter to the computer and to external power.\n2.\nExit Hibernation by pressing the power button.\nFactory-sealed battery\nTo monitor the status of the battery, or if the battery is no longer holding a charge, run HP Battery Check in \nthe HP Support Assistant app (select products only).\n1.\nType support in the",
+    "confidence": 0.8,
+    "source_file": "hp.pdf",
+    "brand": "hp",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "overheating",
+    "symptoms": [
+      "overheating"
+    ],
+    "solution_steps": [
+      "Wear safety glasses when you are hammering, drilling, soldering, cutting wire, attaching springs, using",
+      "After service, reinstall all safety shields, guards, labels, and ground wires. Replace any safety device that",
+      "Reinstall all covers correctly before returning the machine to the customer.",
+      "Fan louvers on the machine help to prevent overheating of internal components. Do not obstruct fan",
+      "Find the room emergency power-off (EPO) switch, disconnecting switch, or electrical outlet. If an electrical",
+      "Do not work alone under hazardous conditions or near equipment that has hazardous voltages.",
+      "Disconnect all power before:",
+      "Before you start to work on the machine, unplug the power cord. If you cannot unplug it, ask the customer",
+      "If you need to work on a machine that has exposed electrical circuits, observe the following precautions:"
+    ],
+    "tools_needed": [
+      "Important: Use only approved tools and test equipment"
+    ],
+    "warnings": [
+      "Use only approved tools and test equipment. Some hand tools have handles covered with a soft material that does not insulate you when working with live electrical currents. Many customers have, near their equipment, rubber floor mats that contain small conductive fibers to decrease electrostatic discharges."
+    ],
+    "raw_text": "ion: Metal objects are good electrical conductors.\n• Wear safety glasses when you are hammering, drilling, soldering, cutting wire, attaching springs, using \nsolvents, or working in any other conditions that might be hazardous to your eyes.\n• After service, reinstall all safety shields, guards, labels, and ground wires. Replace any safety device that \nis worn or defective.\n• Reinstall all covers correctly before returning the machine to the customer.\n• Fan louvers on the machine help to prevent overheating of internal components. Do not obstruct fan \nlouvers or cover them with labels or stickers.\nElectrical safety\nObserve the following rules when working on electrical equipment.\nImportant: Use only approved tools and test equipment. Some hand tools have handles covered with a soft \nmaterial that does not insulate you when working with live electrical currents. Many customers have, near \ntheir equipment, rubber floor mats that contain small conductive fibers to decrease electrostatic discharges. \nDo not use this type of mat to protect yourself from electrical shock.\n• Find the room emergency power-off (EPO) switch, disconnecting switch, or electrical outlet. If an electrical \naccident occurs, you can then operate the switch or unplug the power cord quickly.\n• Do not work alone under hazardous conditions or near equipment that has hazardous voltages.\n• Disconnect all power before:  \n– Performing a mechanical inspection\n– Working near power supplies\n– Removing or installing main units\n© Copyright Lenovo 2024\n1\n• Before you start to work on the machine, unplug the power cord. If you cannot unplug it, ask the customer \nto power-off the wall box that supplies power to the machine, and to lock the wall box in the off position.\n• If you need to work on a machine that has exposed electrical circuits, observe the following precautions:  \n– Ensure that another person, familiar with the power-off controls, is near you.  \nAttention: Another person must be there to switch off the power, if necessary.\n– Use only one hand when working with powered-on electrical equipment; keep the other hand in your \npocket or behind your back.  \nAttention: An electrical shock can occur only when there is a complete circuit. By observing the above \nrule, you may prevent a current from passing through your body.\n– When using testers, set the controls correctly and use the approved probe leads and accessories for \nthat tester.\n– Stand on suitable rubber mats (obtained locally, if necessary) to insulat",
+    "confidence": 0.8,
+    "source_file": "lenevo_hardaware-maintainance.pdf",
+    "brand": "lenovo",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "battery_issue",
+    "symptoms": [
+      "power adapter"
+    ],
+    "solution_steps": [
+      "Damage caused by liquid spilled into the system",
+      "Damage caused by the improper insertion of a personal-computer card (PC card) or the installation of an",
+      "Improper disc insertion or use of an external optical drive",
+      "Fuses blown by attachment of a non-supported device",
+      "Forgotten computer password (making the computer unusable)",
+      "Sticky keys caused by spilling a liquid onto the keyboard",
+      "Use of an incorrect ac power adapter on laptop products",
+      "Missing parts might be a symptom of improper service or modification.",
+      "Check for obvious damage to a hard disk drive. If the spindle of a hard disk drive becomes noisy, the hard"
+    ],
+    "tools_needed": [
+      "Service tools\nService tool and consumable\nModel applicability\nScrew driver (Phillips head) (PH1/PH0)\nX\nScrew driver (Torx head) (T5)\nX\nScrew driver (Torx head) (T30)\nPry tool 1\nX\nTweezers (conductive)\nX\nTweezers (isolated)\nSuction cup\nHexagonal socket\nThermal interface materials\nX\nAcetate tape \nX\nPolyamide tape\nMylar tape\nElectrical tape\nDouble-sided tape\nConductive",
+      "Service tools\nService tool and consumable\nModel applicability\nScrew driver (Phillips head) (PH1/PH0)\nX\nScrew driver (Torx head) (T5)\nX\nScrew driver (Torx head) (T30)\nPry tool 1\nX\nTweezers (conductive)\nX\nTweezers (isolated)\nSuction cup\nHexagonal socket\nThermal interface materials\nX\nAcetate tape \nX\nPolyamide tape\nMylar tape\nElectrical tape\nDouble-sided tape\nConductive",
+      "Removing a FRU or CRU\nService tools\nThe following table lists tools for servicing Lenovo computers"
+    ],
+    "warnings": [
+      "The LCD module as a whole is an FRU. 2"
+    ],
+    "raw_text": "racked or broken by excessive force\n© Copyright Lenovo 2024\n21\n• Damage caused by liquid spilled into the system\n• Damage caused by the improper insertion of a personal-computer card (PC card) or the installation of an \nincompatible card\n• Improper disc insertion or use of an external optical drive\n• Fuses blown by attachment of a non-supported device\n• Forgotten computer password (making the computer unusable)\n• Sticky keys caused by spilling a liquid onto the keyboard\n• Use of an incorrect ac power adapter on laptop products\nThe following symptoms might indicate damage caused by non-warranted activities:\n• Missing parts might be a symptom of improper service or modification.\n• Check for obvious damage to a hard disk drive. If the spindle of a hard disk drive becomes noisy, the hard \ndisk drive might have been dropped or subject to excessive force.\nCRU list\nCRU\nType\nac power adapter \nself-service\npower cord\nself-service\nLenovo Digital Pen\nself-service\n22\nHardware Maintenance Manual\nChapter 3. Identifying FRUs (CRUs) \nLocate FRUs and CRUs\nThe exploded illustrations help Lenovo service technicians identify FRUs or CRUs that they may need to \nreplace when servicing a customer’s computer.\nFigure 1. System exploded view\n© Copyright Lenovo 2024\n23\nTable 1.  FRU (CRU) categories\nNo.\nFRU (CRU) category\n1\nLCD module \nNote: The LCD module as a whole is an FRU. \n2\nUpper case (with keyboard) \n3\nSpeakers (14–inch models)\n4\nSpeakers (16–inch models) \n5\nFan\n6\nUSB board cable \n7\nType-C® bracket*\n8\nUSB board \n9\nFingerprint bracket\n10\nFingerprint board\n11\nFingerprint cable\n12\nBattery pack\n13\nLower case\n14\nAntennas\n15\nTouchpad\n16\nTouchpad mylar\n17\nTouchpad cable\n18\n2242 Solid-state drive (SSD)\n19\nSSD thermal pad\n20\nWi-Fi card\n21\nSystem board\n22\nHeat sink\na\nMylar kit\nb\nScrew kit \nc\nPower cord\nd\nac power adapter\n* for selected models\n24\nHardware Maintenance Manual\nChapter 4. Removing a FRU or CRU\nService tools\nThe following table lists tools for servicing Lenovo computers. Tools with a cross mark are needed for serving \nthe product models as described by this publication. Prepare them before you service the product.\nTable 2.  Service tools\nService tool and consumable\nModel applicability\nScrew driver (Phillips head) (PH1/PH0)\nX\nScrew driver (Torx head) (T5)\nX\nScrew driver (Torx head) (T30)\nPry tool 1\nX\nTweezers (conductive)\nX\nTweezers (isolated)\nSuction cup\nHexagonal socket\nThermal interface materials\nX\nAcetate tape \nX\nPolyamide tape\nMylar tape\nElectrical tape\nDouble-sided tape\nConductive ",
+    "confidence": 0.8,
+    "source_file": "lenevo_hardaware-maintainance.pdf",
+    "brand": "lenovo",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "battery_issue",
+    "symptoms": [
+      "power adapter"
+    ],
+    "solution_steps": [
+      "It is recommended that only certified trained personnel perform service on the computer. For customers",
+      "Begin by removing any FRUs that have to be removed before replacing the failing FRU. Any such FRUs",
+      "Follow the correct sequence in the steps for removing a FRU, as shown in the illustrations by the",
+      "When removing a FRU, move it in the direction as shown by the arrow in the illustration.",
+      "To install a new FRU in place, perform the removal procedure in reverse and follow any notes that",
+      "When replacing a FRU, carefully retain and reuse all screws.",
+      "When replacing the base cover, reapply all labels that come with the replacement base cover. If some"
+    ],
+    "tools_needed": [
+      "Service tools\nService tool and consumable\nModel applicability\nScrew driver (Phillips head) (PH1/PH0)\nX\nScrew driver (Torx head) (T5)\nX\nScrew driver (Torx head) (T30)\nPry tool 1\nX\nTweezers (conductive)\nX\nTweezers (isolated)\nSuction cup\nHexagonal socket\nThermal interface materials\nX\nAcetate tape \nX\nPolyamide tape\nMylar tape\nElectrical tape\nDouble-sided tape\nConductive tape\nEraser\nHeat gun\nBrown brush\nNotes: \n• T30 screw drivers are used to service the new Intel Xeon CPUs",
+      "Service tools\nService tool and consumable\nModel applicability\nScrew driver (Phillips head) (PH1/PH0)\nX\nScrew driver (Torx head) (T5)\nX\nScrew driver (Torx head) (T30)\nPry tool 1\nX\nTweezers (conductive)\nX\nTweezers (isolated)\nSuction cup\nHexagonal socket\nThermal interface materials\nX\nAcetate tape \nX\nPolyamide tape\nMylar tape\nElectrical tape\nDouble-sided tape\nConductive tape\nEraser\nHeat gun\nBrown brush\nNotes: \n• T30 screw drivers are used to service the new Intel Xeon CPUs",
+      "Removing a FRU or CRU\nService tools\nThe following table lists tools for servicing Lenovo computers"
+    ],
+    "warnings": [
+      "The LCD module as a whole is an FRU. 2"
+    ],
+    "raw_text": "tegory\n1\nLCD module \nNote: The LCD module as a whole is an FRU. \n2\nUpper case (with keyboard) \n3\nSpeakers (14–inch models)\n4\nSpeakers (16–inch models) \n5\nFan\n6\nUSB board cable \n7\nType-C® bracket*\n8\nUSB board \n9\nFingerprint bracket\n10\nFingerprint board\n11\nFingerprint cable\n12\nBattery pack\n13\nLower case\n14\nAntennas\n15\nTouchpad\n16\nTouchpad mylar\n17\nTouchpad cable\n18\n2242 Solid-state drive (SSD)\n19\nSSD thermal pad\n20\nWi-Fi card\n21\nSystem board\n22\nHeat sink\na\nMylar kit\nb\nScrew kit \nc\nPower cord\nd\nac power adapter\n* for selected models\n24\nHardware Maintenance Manual\nChapter 4. Removing a FRU or CRU\nService tools\nThe following table lists tools for servicing Lenovo computers. Tools with a cross mark are needed for serving \nthe product models as described by this publication. Prepare them before you service the product.\nTable 2.  Service tools\nService tool and consumable\nModel applicability\nScrew driver (Phillips head) (PH1/PH0)\nX\nScrew driver (Torx head) (T5)\nX\nScrew driver (Torx head) (T30)\nPry tool 1\nX\nTweezers (conductive)\nX\nTweezers (isolated)\nSuction cup\nHexagonal socket\nThermal interface materials\nX\nAcetate tape \nX\nPolyamide tape\nMylar tape\nElectrical tape\nDouble-sided tape\nConductive tape\nEraser\nHeat gun\nBrown brush\nNotes: \n• T30 screw drivers are used to service the new Intel Xeon CPUs.\n• Hexagonal sockets are used to remove antenna connectors.\nGeneral guidelines\nWhen removing or replacing a FRU, ensure that you observe the following general guidelines:\n1. It is recommended that only certified trained personnel perform service on the computer. For customers \nelecting to repair their own machines, please follow all instructions carefully.\n2. Begin by removing any FRUs that have to be removed before replacing the failing FRU. Any such FRUs \nare listed at the beginning of each FRU replacement procedure. Remove them in the order in which they \nare listed.\n© Copyright Lenovo 2024\n25\n3. Follow the correct sequence in the steps for removing a FRU, as shown in the illustrations by the \nnumbers in square callouts.\n4. When removing a FRU, move it in the direction as shown by the arrow in the illustration. \n5. To install a new FRU in place, perform the removal procedure in reverse and follow any notes that \npertain to replacement.\n6. When replacing a FRU, carefully retain and reuse all screws.\n7. When replacing the base cover, reapply all labels that come with the replacement base cover. If some \noriginal labels are not included with the replacement base cover, peel them off fro",
+    "confidence": 0.8,
+    "source_file": "lenevo_hardaware-maintainance.pdf",
+    "brand": "lenovo",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "no_boot",
+    "symptoms": [
+      "computer cannot start"
+    ],
+    "solution_steps": [
+      "Restart the computer. When the logo screen is displayed, press F1.",
+      "Select Startup ➙ Boot. Then, press Enter. The default device order list is displayed.",
+      "Set the startup sequence as desired.",
+      "Press F10 to save the changes and exit.",
+      "Restart the computer. When the logo screen is displayed, press F12.",
+      "Select the device that you want the computer to start from and press Enter.",
+      "Restart the computer. When the logo screen is displayed, press F1.",
+      "Select Date/Time and set the system date and time as desired.",
+      "Press F10 to save changes and exit.",
+      "Go to Control Panel and view by Large icons or Small icons.",
+      "Click Recovery ➙ Open System Restore. Then, follow the on-screen instructions.",
+      "Go to Control Panel and view by Large icons or Small icons.",
+      "Click File History ➙ Restore personal files. Then, follow the on-screen instructions."
+    ],
+    "tools_needed": [
+      "Restore your files from a backup\nNote: If you use the File History tool to restore your files from a backup, ensure that you backed up your \ndata earlier with the tool"
+    ],
+    "warnings": [
+      "No bootable device is displayed if the computer cannot start from any devices or the operating system cannot be found. 3. Set the startup sequence as desired. © Copyright Lenovo 2020 45 4. Press F10 to save the changes and exit.",
+      "If you use the File History tool to restore your files from a backup, ensure that you backed up your data earlier with the tool. 1. Go to Control Panel and view by Large icons or Small icons. 2. Click File History ➙ Restore personal files. Then, follow the on-screen instructions."
+    ],
+    "raw_text": "9\nRestore to the default settings.\nF10\nSave your configuration and exit.\nF5 / –\nChange to a lower value.\nF6 / +\nChange to a higher value.\n↑↓\nLocate an item.\n← →\nSelect a tab.\nEsc\nExit the submenu and return to the parent menu.\nEnter\nEnter the selected tab or submenu.\nChange the startup sequence\n1. Restart the computer. When the logo screen is displayed, press F1.\n2. Select Startup ➙ Boot. Then, press Enter. The default device order list is displayed.\nNote: No bootable device is displayed if the computer cannot start from any devices or the operating \nsystem cannot be found.\n3. Set the startup sequence as desired.\n© Copyright Lenovo 2020\n45\n4. Press F10 to save the changes and exit.\nTo change the startup sequence temporarily: \n1. Restart the computer. When the logo screen is displayed, press F12.\n2. Select the device that you want the computer to start from and press Enter.\nSet the system date and time\n1. Restart the computer. When the logo screen is displayed, press F1.\n2. Select Date/Time and set the system date and time as desired.\n3. Press F10 to save changes and exit.\nUpdate UEFI BIOS\nWhen you install a new program, device driver, or hardware component, you might need to update UEFI \nBIOS.\nDownload and install the latest UEFI BIOS update package by one of the following methods: \n• Open Lenovo Vantage to check the available update packages. If the latest UEFI BIOS update package is \navailable, follow the on-screen instructions to download and install the package.\n• Go to https://pcsupport.lenovo.com and select the entry for your computer. Then, follow the on-screen \ninstructions to download and install the latest UEFI BIOS update package.\nRecovery information\nThis section introduces the recovery information of the Windows 10 operating system. Ensure that you read \nand follow the on-screen recovery instructions. The data on your computer might be deleted during the \nrecovery process. To avoid data loss, make a backup copy of all the data that you want to keep.\nRestore system files and settings to an earlier point\n1. Go to Control Panel and view by Large icons or Small icons.\n2. Click Recovery ➙ Open System Restore. Then, follow the on-screen instructions.\nRestore your files from a backup\nNote: If you use the File History tool to restore your files from a backup, ensure that you backed up your \ndata earlier with the tool.\n1. Go to Control Panel and view by Large icons or Small icons.\n2. Click File History ➙ Restore personal files. Then, follow the on-screen instructions.\nRese",
+    "confidence": 0.8,
+    "source_file": "lenevo_thinkpad.pdf",
+    "brand": "lenovo",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "no_boot",
+    "symptoms": [
+      "computer does not start"
+    ],
+    "solution_steps": [
+      "Install the new base cover assembly in place 1 . Ensure that the latches of the base cover assembly are",
+      "Turn over the computer. Connect the ac power adapter and all disconnected cables to the computer.",
+      "Disable the built-in battery. See “Disable Fast Startup and the built-in battery” on page 52.",
+      "Turn off the computer and disconnect the computer from ac power and all connected cables.",
+      "Close the computer display and turn over the computer.",
+      "Remove the base cover assembly. See “Base cover assembly” on page 52.",
+      "Open the latches on both sides of the memory module slot at the same time 1 , and then remove the",
+      "Install a new memory module:",
+      "Reinstall the base cover assembly.",
+      "Turn over the computer. Connect the ac power adapter and all disconnected cables to the computer."
+    ],
+    "tools_needed": [],
+    "warnings": [
+      "A Mylar film might cover the memory module. To access the memory module, peel off the film first.",
+      "If your computer is installed with only one memory module, ensure that the memory module is installed in the memory slot next to the thermal fan assembly. 7. Reinstall the base cover assembly. 8. Turn over the computer. Connect the ac power adapter and all disconnected cables to the computer."
+    ],
+    "raw_text": "e cover assembly for L590 \nChapter 7. CRU replacement\n53\n5. Install the new base cover assembly in place 1 . Ensure that the latches of the base cover assembly are \nsecured under the base cover assembly. Then, tighten the screws to secure the base cover assembly 2 . \nFigure 6. Installing the base cover assembly for L490\nFigure 7. Installing the base cover assembly for L590\n6. Turn over the computer. Connect the ac power adapter and all disconnected cables to the computer.\nTroubleshooting\nIf the computer does not start up after you reinstall the base cover assembly, disconnect the ac power \nadapter and then reconnect it to the computer.\n54\nL490/L590 User Guide\nMemory module\nPrerequisite\nBefore you start, read Appendix A “Important safety information” on page 91 and print the following \ninstructions.\nAttention: Do not touch the contact edge of the memory module. Otherwise, the memory module might get \ndamaged.\nReplacement procedure\n1. Disable the built-in battery. See “Disable Fast Startup and the built-in battery” on page 52.\n2. Turn off the computer and disconnect the computer from ac power and all connected cables.\n3. Close the computer display and turn over the computer.\n4. Remove the base cover assembly. See “Base cover assembly” on page 52.\n5. Open the latches on both sides of the memory module slot at the same time 1 , and then remove the \nmemory module 2 . \nNote: A Mylar film might cover the memory module. To access the memory module, peel off the film \nfirst.\nChapter 7. CRU replacement\n55\n6. Install a new memory module: \na. Place the notched end of the new memory module toward the contact edge side of the memory slot. \nThen, insert the new memory module into the memory slot at an angle of about 20 degrees 1 .\nb. Pivot the memory module downward until it snaps into place 2 . Ensure that the memory module is \nfirmly installed in the memory slot and cannot be moved easily.\nNote: If your computer is installed with only one memory module, ensure that the memory module is \ninstalled in the memory slot next to the thermal fan assembly.\n7. Reinstall the base cover assembly.\n8. Turn over the computer. Connect the ac power adapter and all disconnected cables to the computer.\nWireless WAN card (for selected models)\nThe following information is only for the computer with user-installable modules.\nThe following information is only for the computer with user-installable modules. Ensure that you use only a \nLenovo-authorized wireless module specifically tested for this computer model. O",
+    "confidence": 0.8,
+    "source_file": "lenevo_thinkpad.pdf",
+    "brand": "lenovo",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "overheating",
+    "symptoms": [
+      "overheating"
+    ],
+    "solution_steps": [
+      "Close the computer display and turn over the computer.",
+      "Remove the base cover assembly. See “Base cover assembly” on page 52.",
+      "Disconnect the cable from the system board.",
+      "Pull the tape to remove the M.2 solid-state-drive adapter.",
+      "Disconnect the cable from the adapter.",
+      "Remove the screws that secure the protective cover 1 and then remove the cover 2 .",
+      "Remove the screw that secures the M.2 solid-state-drive and then the drive pops up.",
+      "Carefully remove the M.2 solid-state drive out of the M.2 slot.",
+      "Align the contact edge of the new M.2 solid-state drive with the key in the slot. Carefully insert the M.2",
+      "Install the screw to secure the M.2 solid-state drive.",
+      "Install the protective cover 1 and then install the screws to secure the cover 2 .",
+      "Connect the cable to the adapter.",
+      "Insert the adapter 1 and then pivot it downward 2 . Ensure that the adapter is seated in place.",
+      "Connect the cable to the system board.",
+      "Reinstall the base cover assembly."
+    ],
+    "tools_needed": [],
+    "warnings": [
+      "Depending on the model, a thermal pad is installed on the protective cover to prevent possible overheating. Ensure that the thermal pad is not moved and damaged. 9. Remove the screw that secures the M.2 solid-state-drive and then the drive pops up."
+    ],
+    "raw_text": ".\n3. Close the computer display and turn over the computer.\n4. Remove the base cover assembly. See “Base cover assembly” on page 52.\n5. Disconnect the cable from the system board. \n6. Pull the tape to remove the M.2 solid-state-drive adapter. \n62\nL490/L590 User Guide\n7. Disconnect the cable from the adapter. \n8. Remove the screws that secure the protective cover 1 and then remove the cover 2 . \nNote: Depending on the model, a thermal pad is installed on the protective cover to prevent possible \noverheating. Ensure that the thermal pad is not moved and damaged.\n9. Remove the screw that secures the M.2 solid-state-drive and then the drive pops up. \nChapter 7. CRU replacement\n63\n10. Carefully remove the M.2 solid-state drive out of the M.2 slot. \n11. Align the contact edge of the new M.2 solid-state drive with the key in the slot. Carefully insert the M.2 \nsolid-state drive into the M.2 slot at an angle of about 20 degrees 1 . Then, pivot the new M.2 solid-state \ndrive downward 2 . \n12. Install the screw to secure the M.2 solid-state drive. \n64\nL490/L590 User Guide\n13. Install the protective cover 1 and then install the screws to secure the cover 2 . \n14. Connect the cable to the adapter. \n15. Insert the adapter 1 and then pivot it downward 2 . Ensure that the adapter is seated in place. \nChapter 7. CRU replacement\n65\n16. Connect the cable to the system board. \n17. Reinstall the base cover assembly.\n18. Turn over the computer. Connect the ac power adapter and all disconnected cables.\nShort M.2 solid-state drive (in internal storage drive slot)\nPrerequisite\nBefore you start, read Appendix A “Important safety information” on page 91 and print the following \ninstructions.\nAttention: If you replace a M.2 solid-state drive, you might need to install a new operating system. For \ndetails on how to install a new operating system, see “Install Windows 10 and drivers” on page 48.\nThe internal storage drive is sensitive. Inappropriate handling might cause damage and permanent loss of \ndata.\nWhen handling the internal storage drive, observe the following guidelines: \n• Replace the internal storage drive only for upgrade or repair. The internal storage drive is not designed for \nfrequent changes or replacement.\n• Before replacing the internal storage drive, make a backup copy of all the data that you want to keep.\n• Do not touch the contact edge of the internal storage drive. Otherwise, the internal storage drive might get \ndamaged.\n• Do not apply pressure to the internal storage dr",
+    "confidence": 0.8,
+    "source_file": "lenevo_thinkpad.pdf",
+    "brand": "lenovo",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "overheating",
+    "symptoms": [
+      "overheating"
+    ],
+    "solution_steps": [
+      "Disconnect the cable from the adapter.",
+      "Remove the screws that secure the protective cover 1 and then remove the cover 2 .",
+      "Remove the screw that secures the M.2 solid-state-drive bracket.",
+      "Remove the M.2 solid-state drive bracket.",
+      "Carefully remove the short M.2 solid-state drive out of the slot.",
+      "Install the new M.2 solid-state drive to the bracket.",
+      "Align the contact edge of the new M.2 solid-state drive with the key in the slot. Carefully insert the M.2",
+      "Install the screw to secure the M.2 solid-state drive bracket.",
+      "Install the protective cover 1 and then install the screws to secure the cover 2 .",
+      "Connect the cable to the adapter.",
+      "Insert the adapter 1 and then pivot it downward 2 . Ensure that the adapter is seated in place.",
+      "Connect the cable to the system board.",
+      "Reinstall the base cover assembly.",
+      "Turn over the computer. Connect the ac power adapter and all disconnected cables."
+    ],
+    "tools_needed": [],
+    "warnings": [
+      "Depending on the model, a thermal pad is installed in the M.2 solid-state drive slot to prevent possible overheating. Ensure that the thermal pad is not moved and damaged. 12. Install the new M.2 solid-state drive to the bracket. 13. Align the contact edge of the new M.2 solid-state drive with the key in the slot. Carefully insert the M.2 solid-state drive assembly into the slot at an angle of about 20 degrees 1 . Then, pivot the bracket downward 2 ."
+    ],
+    "raw_text": "-drive adapter. \n7. Disconnect the cable from the adapter. \nChapter 7. CRU replacement\n67\n8. Remove the screws that secure the protective cover 1 and then remove the cover 2 . \n9. Remove the screw that secures the M.2 solid-state-drive bracket. \n10. Remove the M.2 solid-state drive bracket. \n68\nL490/L590 User Guide\n11. Carefully remove the short M.2 solid-state drive out of the slot. \nNote: Depending on the model, a thermal pad is installed in the M.2 solid-state drive slot to prevent \npossible overheating. Ensure that the thermal pad is not moved and damaged.\n12. Install the new M.2 solid-state drive to the bracket. \n13. Align the contact edge of the new M.2 solid-state drive with the key in the slot. Carefully insert the M.2 \nsolid-state drive assembly into the slot at an angle of about 20 degrees 1 . Then, pivot the bracket \ndownward 2 . \nChapter 7. CRU replacement\n69\n14. Install the screw to secure the M.2 solid-state drive bracket. \n15. Install the protective cover 1 and then install the screws to secure the cover 2 . \n16. Connect the cable to the adapter. \n70\nL490/L590 User Guide\n17. Insert the adapter 1 and then pivot it downward 2 . Ensure that the adapter is seated in place. \n18. Connect the cable to the system board. \n19. Reinstall the base cover assembly.\n20. Turn over the computer. Connect the ac power adapter and all disconnected cables.\nM.2 solid-state drive (in the wireless WAN slot)\nPrerequisite\nBefore you start, read Appendix A “Important safety information” on page 91 and print the following \ninstructions.\nAttention: If you replace a M.2 solid-state drive, you might need to install a new operating system. For \ndetails on how to install a new operating system, see “Install Windows 10 and drivers” on page 48.\nThe M.2 solid-state drive is sensitive. Inappropriate handling might cause damage and permanent loss of \ndata.\nWhen handling the M.2 solid-state drive, observe the following guidelines: \n• Replace the M.2 solid-state drive only for upgrade or repair. The M.2 solid-state drive is not designed for \nfrequent changes or replacement.\nChapter 7. CRU replacement\n71\n• Before replacing the M.2 solid-state drive, make a backup copy of all the data that you want to keep.\n• Do not apply pressure to the M.2 solid-state drive.\n• Do not touch the contact edge or circuit board of the M.2 solid-state drive. Otherwise the M.2 solid-state \ndrive might get damaged.\n• Do not make the M.2 solid-state drive subject to physical shocks or vibration. Put the M.2 solid-sta",
+    "confidence": 0.8,
+    "source_file": "lenevo_thinkpad.pdf",
+    "brand": "lenovo",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "overheating",
+    "symptoms": [
+      "overheating"
+    ],
+    "solution_steps": [
+      "Power cords, plugs, power adapters, extension cords, surge protectors, or power supplies that are",
+      "Signs of overheating, smoke, sparks, or fire.",
+      "Damage to a battery (such as cracks, dents, or creases), discharge from a battery, or a buildup of foreign",
+      "A cracking, hissing, or popping sound, or strong odor that comes from the product.",
+      "Signs that liquid has been spilled or an object has fallen onto the computer product, the power cord, or",
+      "The computer product, power cord, or power adapter has been exposed to water.",
+      "The product has been dropped or damaged in any way.",
+      "The product does not operate normally when you follow the operating instructions."
+    ],
+    "tools_needed": [],
+    "warnings": [
+      "If you notice these conditions with a product (such as an extension cord) that is not manufactured for or by Lenovo, stop using that product until you can contact the product manufacturer for further instructions, or until you get a suitable replacement.",
+      "Some computer parts can be upgraded or replaced by the customer. Upgrades typically are referred to as options. Replacement parts approved for customer installation are referred to as Customer"
+    ],
+    "raw_text": "it \nrepaired, if necessary.\nIn the unlikely event that you notice any of the following conditions, or if you have any safety concerns \nwith your product, stop using the product and unplug it from the power source and \ntelecommunication lines until you can speak to the Customer Support Center for further guidance.\nAppendix A. Important safety information\n93\n• Power cords, plugs, power adapters, extension cords, surge protectors, or power supplies that are \ncracked, broken, or damaged.\n• Signs of overheating, smoke, sparks, or fire.\n• Damage to a battery (such as cracks, dents, or creases), discharge from a battery, or a buildup of foreign \nsubstances on the battery.\n• A cracking, hissing, or popping sound, or strong odor that comes from the product. \n• Signs that liquid has been spilled or an object has fallen onto the computer product, the power cord, or \npower adapter.\n• The computer product, power cord, or power adapter has been exposed to water. \n• The product has been dropped or damaged in any way. \n• The product does not operate normally when you follow the operating instructions.\nNote: If you notice these conditions with a product (such as an extension cord) that is not manufactured for \nor by Lenovo, stop using that product until you can contact the product manufacturer for further instructions, \nor until you get a suitable replacement.\nService and upgrades\nDo not attempt to service a product yourself unless instructed to do so by the Customer Support Center or \nyour documentation. Only use a Service Provider who is approved to repair your particular product.\nNote: Some computer parts can be upgraded or replaced by the customer. Upgrades typically are referred \nto as options. Replacement parts approved for customer installation are referred to as Customer \nReplaceable Units, or CRUs. Lenovo provides documentation with instructions when it is appropriate for \ncustomers to install options or replace CRUs. You must closely follow all instructions when installing or \nreplacing parts. The Off state of a power indicator does not necessarily mean that voltage levels inside a \nproduct are zero. Before you remove the covers from a product equipped with a power cord, always ensure \nthat the power is turned off and that the product is unplugged from any power source. If you have any \nquestions or concerns, contact the Customer Support Center.\nAlthough there are no moving parts in your computer after the power cord has been disconnected, the \nfollowing warnings are requir",
+    "confidence": 0.8,
+    "source_file": "lenevo_thinkpad.pdf",
+    "brand": "lenovo",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "overheating",
+    "symptoms": [
+      "thermal"
+    ],
+    "solution_steps": [
+      "Reinstall the base cover assembly.",
+      "Turn over the computer. Connect the ac power adapter and all disconnected cables to the computer.",
+      "Disable the built-in battery. See “Disable Fast Startup and the built-in battery” on page 52.",
+      "Turn off the computer and disconnect the computer from ac power and all connected cables.",
+      "Close the computer display and turn over the computer.",
+      "Remove the base cover assembly. See “Base cover assembly” on page 52.",
+      "Remove the wireless-WAN card:",
+      "Install a new wireless-WAN card:"
+    ],
+    "tools_needed": [],
+    "warnings": [
+      "If your computer is installed with only one memory module, ensure that the memory module is installed in the memory slot next to the thermal fan assembly. 7. Reinstall the base cover assembly. 8. Turn over the computer. Connect the ac power adapter and all disconnected cables to the computer.",
+      "A Mylar film might cover the wireless-WAN card. To access the wireless-WAN card, peel off the film first. a. Gently disconnect the wireless cable connectors with your fingers 1 . Then, remove the screw that secures the wireless-WAN card 2 and the card pops up. b. Carefully remove the wireless-WAN card out of the slot 3 ."
+    ],
+    "raw_text": "e: \na. Place the notched end of the new memory module toward the contact edge side of the memory slot. \nThen, insert the new memory module into the memory slot at an angle of about 20 degrees 1 .\nb. Pivot the memory module downward until it snaps into place 2 . Ensure that the memory module is \nfirmly installed in the memory slot and cannot be moved easily.\nNote: If your computer is installed with only one memory module, ensure that the memory module is \ninstalled in the memory slot next to the thermal fan assembly.\n7. Reinstall the base cover assembly.\n8. Turn over the computer. Connect the ac power adapter and all disconnected cables to the computer.\nWireless WAN card (for selected models)\nThe following information is only for the computer with user-installable modules.\nThe following information is only for the computer with user-installable modules. Ensure that you use only a \nLenovo-authorized wireless module specifically tested for this computer model. Otherwise, the computer will \ngenerate an error-code beep sequence when you turn on the computer.\nPrerequisite\nBefore you start, read Appendix A “Important safety information” on page 91 and print the following \ninstructions.\nAttention: Do not touch the contact edge of the wireless-WAN card. Otherwise, the wireless-WAN card \nmight get damaged.\nReplacement procedure\n1. Disable the built-in battery. See “Disable Fast Startup and the built-in battery” on page 52.\n2. Turn off the computer and disconnect the computer from ac power and all connected cables.\n3. Close the computer display and turn over the computer.\n4. Remove the base cover assembly. See “Base cover assembly” on page 52.\n56\nL490/L590 User Guide\n5. Remove the wireless-WAN card: \nNote: A Mylar film might cover the wireless-WAN card. To access the wireless-WAN card, peel off the \nfilm first.\na. Gently disconnect the wireless cable connectors with your fingers 1 . Then, remove the screw that \nsecures the wireless-WAN card 2 and the card pops up.\nb. Carefully remove the wireless-WAN card out of the slot 3 .\nChapter 7. CRU replacement\n57\n6. Install a new wireless-WAN card: \na. Align the contact edge of the new wireless-WAN card with the key in the slot. Then, carefully insert \nthe card into the slot at an angle of about 20 degrees 1 and pivot the card downward 2 .\nb. Install the screw to secure the wireless-WAN card in place 3 . Connect the wireless cable connectors \nto the card 4 . Ensure that you connect the orange cable to the main connector on the card,",
+    "confidence": 0.8,
+    "source_file": "lenevo_thinkpad.pdf",
+    "brand": "lenovo",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "overheating",
+    "symptoms": [
+      "thermal"
+    ],
+    "solution_steps": [
+      "Close the computer display and turn over the computer.",
+      "Remove the base cover assembly. See “Base cover assembly” on page 52.",
+      "Disconnect the cable from the system board.",
+      "Pull the tape to remove the M.2 solid-state-drive adapter.",
+      "Disconnect the cable from the adapter.",
+      "Remove the screws that secure the protective cover 1 and then remove the cover 2 .",
+      "Remove the screw that secures the M.2 solid-state-drive and then the drive pops up.",
+      "Carefully remove the M.2 solid-state drive out of the M.2 slot.",
+      "Align the contact edge of the new M.2 solid-state drive with the key in the slot. Carefully insert the M.2",
+      "Install the screw to secure the M.2 solid-state drive.",
+      "Install the protective cover 1 and then install the screws to secure the cover 2 .",
+      "Connect the cable to the adapter.",
+      "Insert the adapter 1 and then pivot it downward 2 . Ensure that the adapter is seated in place.",
+      "Connect the cable to the system board.",
+      "Reinstall the base cover assembly."
+    ],
+    "tools_needed": [],
+    "warnings": [
+      "Depending on the model, a thermal pad is installed on the protective cover to prevent possible overheating. Ensure that the thermal pad is not moved and damaged. 9. Remove the screw that secures the M.2 solid-state-drive and then the drive pops up."
+    ],
+    "raw_text": "ter and disconnect the computer from ac power and all connected cables.\n3. Close the computer display and turn over the computer.\n4. Remove the base cover assembly. See “Base cover assembly” on page 52.\n5. Disconnect the cable from the system board. \n6. Pull the tape to remove the M.2 solid-state-drive adapter. \n62\nL490/L590 User Guide\n7. Disconnect the cable from the adapter. \n8. Remove the screws that secure the protective cover 1 and then remove the cover 2 . \nNote: Depending on the model, a thermal pad is installed on the protective cover to prevent possible \noverheating. Ensure that the thermal pad is not moved and damaged.\n9. Remove the screw that secures the M.2 solid-state-drive and then the drive pops up. \nChapter 7. CRU replacement\n63\n10. Carefully remove the M.2 solid-state drive out of the M.2 slot. \n11. Align the contact edge of the new M.2 solid-state drive with the key in the slot. Carefully insert the M.2 \nsolid-state drive into the M.2 slot at an angle of about 20 degrees 1 . Then, pivot the new M.2 solid-state \ndrive downward 2 . \n12. Install the screw to secure the M.2 solid-state drive. \n64\nL490/L590 User Guide\n13. Install the protective cover 1 and then install the screws to secure the cover 2 . \n14. Connect the cable to the adapter. \n15. Insert the adapter 1 and then pivot it downward 2 . Ensure that the adapter is seated in place. \nChapter 7. CRU replacement\n65\n16. Connect the cable to the system board. \n17. Reinstall the base cover assembly.\n18. Turn over the computer. Connect the ac power adapter and all disconnected cables.\nShort M.2 solid-state drive (in internal storage drive slot)\nPrerequisite\nBefore you start, read Appendix A “Important safety information” on page 91 and print the following \ninstructions.\nAttention: If you replace a M.2 solid-state drive, you might need to install a new operating system. For \ndetails on how to install a new operating system, see “Install Windows 10 and drivers” on page 48.\nThe internal storage drive is sensitive. Inappropriate handling might cause damage and permanent loss of \ndata.\nWhen handling the internal storage drive, observe the following guidelines: \n• Replace the internal storage drive only for upgrade or repair. The internal storage drive is not designed for \nfrequent changes or replacement.\n• Before replacing the internal storage drive, make a backup copy of all the data that you want to keep.\n• Do not touch the contact edge of the internal storage drive. Otherwise, the internal storage dr",
+    "confidence": 0.8,
+    "source_file": "lenevo_thinkpad.pdf",
+    "brand": "lenovo",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "overheating",
+    "symptoms": [
+      "thermal"
+    ],
+    "solution_steps": [
+      "Remove the base cover assembly. See “Base cover assembly” on page 52.",
+      "Disconnect the cable from the system board.",
+      "Pull the tape to remove the M.2 solid-state-drive adapter.",
+      "Disconnect the cable from the adapter.",
+      "Remove the screws that secure the protective cover 1 and then remove the cover 2 .",
+      "Remove the screw that secures the M.2 solid-state-drive and then the drive pops up.",
+      "Carefully remove the M.2 solid-state drive out of the M.2 slot.",
+      "Align the contact edge of the new M.2 solid-state drive with the key in the slot. Carefully insert the M.2",
+      "Install the screw to secure the M.2 solid-state drive.",
+      "Install the protective cover 1 and then install the screws to secure the cover 2 .",
+      "Connect the cable to the adapter.",
+      "Insert the adapter 1 and then pivot it downward 2 . Ensure that the adapter is seated in place.",
+      "Connect the cable to the system board.",
+      "Reinstall the base cover assembly.",
+      "Turn over the computer. Connect the ac power adapter and all disconnected cables."
+    ],
+    "tools_needed": [],
+    "warnings": [
+      "Depending on the model, a thermal pad is installed on the protective cover to prevent possible overheating. Ensure that the thermal pad is not moved and damaged. 9. Remove the screw that secures the M.2 solid-state-drive and then the drive pops up."
+    ],
+    "raw_text": "ay and turn over the computer.\n4. Remove the base cover assembly. See “Base cover assembly” on page 52.\n5. Disconnect the cable from the system board. \n6. Pull the tape to remove the M.2 solid-state-drive adapter. \n62\nL490/L590 User Guide\n7. Disconnect the cable from the adapter. \n8. Remove the screws that secure the protective cover 1 and then remove the cover 2 . \nNote: Depending on the model, a thermal pad is installed on the protective cover to prevent possible \noverheating. Ensure that the thermal pad is not moved and damaged.\n9. Remove the screw that secures the M.2 solid-state-drive and then the drive pops up. \nChapter 7. CRU replacement\n63\n10. Carefully remove the M.2 solid-state drive out of the M.2 slot. \n11. Align the contact edge of the new M.2 solid-state drive with the key in the slot. Carefully insert the M.2 \nsolid-state drive into the M.2 slot at an angle of about 20 degrees 1 . Then, pivot the new M.2 solid-state \ndrive downward 2 . \n12. Install the screw to secure the M.2 solid-state drive. \n64\nL490/L590 User Guide\n13. Install the protective cover 1 and then install the screws to secure the cover 2 . \n14. Connect the cable to the adapter. \n15. Insert the adapter 1 and then pivot it downward 2 . Ensure that the adapter is seated in place. \nChapter 7. CRU replacement\n65\n16. Connect the cable to the system board. \n17. Reinstall the base cover assembly.\n18. Turn over the computer. Connect the ac power adapter and all disconnected cables.\nShort M.2 solid-state drive (in internal storage drive slot)\nPrerequisite\nBefore you start, read Appendix A “Important safety information” on page 91 and print the following \ninstructions.\nAttention: If you replace a M.2 solid-state drive, you might need to install a new operating system. For \ndetails on how to install a new operating system, see “Install Windows 10 and drivers” on page 48.\nThe internal storage drive is sensitive. Inappropriate handling might cause damage and permanent loss of \ndata.\nWhen handling the internal storage drive, observe the following guidelines: \n• Replace the internal storage drive only for upgrade or repair. The internal storage drive is not designed for \nfrequent changes or replacement.\n• Before replacing the internal storage drive, make a backup copy of all the data that you want to keep.\n• Do not touch the contact edge of the internal storage drive. Otherwise, the internal storage drive might get \ndamaged.\n• Do not apply pressure to the internal storage drive.\n• Do not make the in",
+    "confidence": 0.8,
+    "source_file": "lenevo_thinkpad.pdf",
+    "brand": "lenovo",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "overheating",
+    "symptoms": [
+      "Fan error"
+    ],
+    "solution_steps": [
+      "Go to https://support.lenovo.com/smartbeep or scan the following QR Code.",
+      "Download the proper diagnostic app and install it on your smartphone.",
+      "Run the diagnostic app and place the smartphone near the computer.",
+      "Press Fn on your computer to emit the beep again. The diagnostic app decodes the beep error and"
+    ],
+    "tools_needed": [],
+    "warnings": [
+      "Do not attempt to service a product yourself unless instructed to do so by the Customer Support"
+    ],
+    "raw_text": "Yes”, all data \nthat were created by the operating system or programs will be deleted except \nglobal variables defined by the Unified Extensible Firmware Interface \nSpecification. If you select “No”, all data will be kept, but the operating system or \nprograms will not be able to create, modify, or delete data in the storage.\nIf this error happens at a service center, Lenovo authorized service personnel will \nclean up the non-volatile system UEFI variable storage using the preceding \nsolution. \nFan error. Press ESC to startup \nwith limited performance.\nThe thermal fan might not work correctly. After the error message is displayed, \npress ESC within five seconds to start up the computer with limited performance. \nOtherwise, the computer will shut down immediately. If the problem still exists \nwhen you starts up next time, have your computer serviced. \n86\nL490/L590 User Guide\nBeep errors\nLenovo SmartBeep technology enables you to decode beep errors with your smartphone when a black \nscreen occurs with beeps from your computer. To decode the beep error with Lenovo SmartBeep \ntechnology: \n1. Go to https://support.lenovo.com/smartbeep or scan the following QR Code. \n2. Download the proper diagnostic app and install it on your smartphone.\n3. Run the diagnostic app and place the smartphone near the computer. \n4. Press Fn on your computer to emit the beep again. The diagnostic app decodes the beep error and \nshows possible solutions on the smartphone. \nNote: Do not attempt to service a product yourself unless instructed to do so by the Customer Support \nCenter or product documentation. Only use a Lenovo-authorized service provider to repair your product. \nChapter 8. Help and support\n87\nSelf-help resources\nUse the following self-help resources to learn more about the computer and troubleshoot problems.\nResources \nHow to access?\nUse Lenovo Vantage to: \n• Configure device settings.\n• Download and install UEFI BIOS, drivers, and firmware \nupdates.\n• Secure your computer from outside threats.\n• Diagnose hardware problems.\n• Check the computer warranty status.\n• Access User Guide and helpful articles.\n• Open the Start menu and click Lenovo Vantage.\n• Use Windows Search.\nProduct documentation: \n• Safety and Warranty Guide \n• Setup Guide \n• This User Guide\n• Regulatory Notice\nGo to https://pcsupport.lenovo.com. Then, follow the on- \nscreen instructions to filter out the documentation you \nwant. \nLenovo Support Web site with the latest support \ninformation of the following: \n• Driv",
+    "confidence": 0.8,
+    "source_file": "lenevo_thinkpad.pdf",
+    "brand": "lenovo",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "battery_issue",
+    "symptoms": [
+      "power adapter"
+    ],
+    "solution_steps": [
+      "Right-click the battery status icon in the Windows notification area.",
+      "Click Power Options ➙ Choose what the power buttons do.",
+      "Change the settings as you prefer.",
+      "Right-click the battery status icon and select Power Options.",
+      "Choose or customize a power plan of your preference."
+    ],
+    "tools_needed": [],
+    "warnings": [
+      "To maximize the life of the battery, once the battery is fully charged, it must discharge to 94% or lower before it will be allowed to recharge again."
+    ],
+    "raw_text": "ttery status icon \nor \nis in the Windows notification area. You can click the icon to check the \nbattery status, view the current power plan, change the power mode, and access battery settings quickly.\nCheck the battery temperature\nOpen Lenovo Vantage, and then follow the on-screen instructions to view battery details. \nCharge the computer\nWhen the battery power is low, charge your battery by connecting your computer to ac power.\nThe battery is fully charged in about four to eight hours. If the power adapter shipped with your computer \nsupports the rapid charge function, the battery is 80% charged in about one hour when the computer is \nturned off. The actual charging time depends on the battery size, the physical environment, and whether you \nare using the computer.\nBattery charging is also affected by the battery temperature. The recommended battery temperature range \nfor charging the battery is between 10°C (50°F) and 35°C (95°F).\nNote: To maximize the life of the battery, once the battery is fully charged, it must discharge to 94% or lower \nbefore it will be allowed to recharge again.\nMaximize the battery life\n• Lower the brightness of the computer display.\n• Turn off the wireless features when not in use.\n• Use the battery until the charge is depleted.\n• Recharge the battery completely before using it.\nSet power button behaviors\nYou can define what the power button does according to your preference. For example, by pressing the \npower button, you can turn off the computer or put the computer to sleep or hibernation mode.\nTo change what the power button does: \n1. Right-click the battery status icon in the Windows notification area. \n2. Click Power Options ➙ Choose what the power buttons do.\n3. Change the settings as you prefer.\n© Copyright Lenovo 2020\n29\nSet the power plan\nFor ENERGY STAR® compliant computers, the following power plan takes effect when your computers have \nbeen idle for a specified duration: \nTable 1.  Default power plan (when plugged into ac power)\n• Turn off the display: After 10 minutes\n• Put the computer to sleep: After 30 minutes\nTo reset the power plan to achieve the best balance between performance and power saving: \n1. Right-click the battery status icon and select Power Options. \n2. Choose or customize a power plan of your preference.\nTransfer data\nQuickly share your files using the built-in Bluetooth or NFC technology among devices with the same \nfeatures. You also can insert a media card or smart card to transfer data.\nConnect to a Bluet",
+    "confidence": 0.8,
+    "source_file": "lenevo_thinkpad.pdf",
+    "brand": "lenovo",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "battery_issue",
+    "symptoms": [
+      "power adapter"
+    ],
+    "solution_steps": [
+      "Click Settings ➙ Network & Internet ➙ Airplane mode.",
+      "Turn on or turn off the Airplane mode switch.",
+      "Docking status indicator",
+      "Docking-station connector"
+    ],
+    "tools_needed": [],
+    "warnings": [
+      "The following illustration is based on ThinkPad Basic Docking Station. The ThinkPad Pro Docking",
+      "The ThinkPad Basic Docking Station does not ship with a system lock installed. You can contact Lenovo sales to purchase a system lock with the option part number 4XE0Q56388. 2. Key lock indicator"
+    ],
+    "raw_text": "2. Click Settings ➙ Network & Internet ➙ Airplane mode.\n3. Turn on or turn off the Airplane mode switch.\n32\nL490/L590 User Guide\nChapter 4. Accessories\nThis chapter provides instructions on how to use hardware accessories to expand your computer \ncapabilities.\nPurchase options\nLenovo has a number of hardware accessories and upgrades to help expand the capabilities of your \ncomputer. Options include memory modules, storage devices, network cards, port replicators or docking \nstations, batteries, power adapters, keyboards, mice, and more.\nTo shop at Lenovo, go to https://www.lenovo.com/accessories.\nDocking station\nYou can use the following docking stations to extend the capacity of your computer:  \n• ThinkPad Basic Docking Station\n• ThinkPad Pro Docking Station\n• ThinkPad Ultra Docking Station\n© Copyright Lenovo 2020\n33\nFront view\nNote: The following illustration is based on ThinkPad Basic Docking Station. The ThinkPad Pro Docking \nStation and ThinkPad Ultra Docking Station might look slightly different. \n1. System lock\nUse the system lock in the following ways: \n• Locked position \n: The latch is locked, and you cannot attach or detach your \ncomputer.\n• Unlocked position \n: The latch is unlocked, and you can attach or detach \nyour computer.\n• Removal position \n: You can remove the system lock from the system-lock \nslot.\nNote: The ThinkPad Basic Docking Station does not ship with a system lock \ninstalled. You can contact Lenovo sales to purchase a system lock with the option \npart number 4XE0Q56388.\n2. Key lock indicator\nThis indicator turns on when the system lock key is in the locked position.\n3. Docking status indicator\nThis indicator turns on when your computer is successfully connected to the \ndocking station.\n4. Power button\nPress the power button to turn on or turn off the computer attached to the \ndocking station.\n5. Guide post\nUse the guide post to help you position your computer properly when you attach \nthe computer to the docking station.\n6. Docking-station connector\nConnect the computer to the docking station.\n7. Hooks\nHold and secure the computer to the docking station.\n8. Latch\nSlide the latch to attach or detach the computer.\n34\nL490/L590 User Guide\nRear view\nFigure 1. ThinkPad Basic Docking Station\nFigure 2. ThinkPad Pro Docking Station\nFigure 3. ThinkPad Ultra Docking Station\nConnectors\nThinkPad Basic Docking \nStation\nThinkPad Pro Docking \nStation\nThinkPad Ultra Docking \nStation\n1. Audio connector \n√\n√\n√\n2. ac power connector\n√\n√\n√\n3. DisplayPort® connec",
+    "confidence": 0.8,
+    "source_file": "lenevo_thinkpad.pdf",
+    "brand": "lenovo",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "battery_issue",
+    "symptoms": [
+      "battery life"
+    ],
+    "solution_steps": [
+      "Right-click the battery status icon in the Windows notification area.",
+      "Click Power Options ➙ Choose what the power buttons do.",
+      "Change the settings as you prefer.",
+      "Right-click the battery status icon and select Power Options.",
+      "Choose or customize a power plan of your preference.",
+      "Turn on Bluetooth on the computer.",
+      "Click Add Bluetooth or other device ➙ Bluetooth.",
+      "Select a Bluetooth device, and then follow the on-sc"
+    ],
+    "tools_needed": [],
+    "warnings": [
+      "To maximize the life of the battery, once the battery is fully charged, it must discharge to 94% or lower before it will be allowed to recharge again."
+    ],
+    "raw_text": "our when the computer is \nturned off. The actual charging time depends on the battery size, the physical environment, and whether you \nare using the computer.\nBattery charging is also affected by the battery temperature. The recommended battery temperature range \nfor charging the battery is between 10°C (50°F) and 35°C (95°F).\nNote: To maximize the life of the battery, once the battery is fully charged, it must discharge to 94% or lower \nbefore it will be allowed to recharge again.\nMaximize the battery life\n• Lower the brightness of the computer display.\n• Turn off the wireless features when not in use.\n• Use the battery until the charge is depleted.\n• Recharge the battery completely before using it.\nSet power button behaviors\nYou can define what the power button does according to your preference. For example, by pressing the \npower button, you can turn off the computer or put the computer to sleep or hibernation mode.\nTo change what the power button does: \n1. Right-click the battery status icon in the Windows notification area. \n2. Click Power Options ➙ Choose what the power buttons do.\n3. Change the settings as you prefer.\n© Copyright Lenovo 2020\n29\nSet the power plan\nFor ENERGY STAR® compliant computers, the following power plan takes effect when your computers have \nbeen idle for a specified duration: \nTable 1.  Default power plan (when plugged into ac power)\n• Turn off the display: After 10 minutes\n• Put the computer to sleep: After 30 minutes\nTo reset the power plan to achieve the best balance between performance and power saving: \n1. Right-click the battery status icon and select Power Options. \n2. Choose or customize a power plan of your preference.\nTransfer data\nQuickly share your files using the built-in Bluetooth or NFC technology among devices with the same \nfeatures. You also can insert a media card or smart card to transfer data.\nConnect to a Bluetooth-enabled device\nYou can connect all types of Bluetooth-enabled devices to your computer, such as a keyboard, a mouse, a \nsmartphone, or speakers. To ensure the connection is successful, place the devices 10 meters (33 feet), at \nmost, from the computer.\n1. Turn on Bluetooth on the computer.  \n• Click the action center icon \nin the Windows notification area. Enable the Bluetooth feature.\n• Open the Start menu, and then click Settings ➙ Devices ➙ Bluetooth & other devices. Turn on the \nBluetooth switch.\n2. Click Add Bluetooth or other device ➙ Bluetooth.\n3. Select a Bluetooth device, and then follow the on-sc",
+    "confidence": 0.8,
+    "source_file": "lenevo_thinkpad.pdf",
+    "brand": "lenovo",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "fan_issue",
+    "symptoms": [
+      "Fan error"
+    ],
+    "solution_steps": [
+      "Go to https://support.lenovo.com/smartbeep or scan the following QR Code.",
+      "Download the proper diagnostic app and install it on your smartphone.",
+      "Run the diagnostic app and place the smartphone near the computer.",
+      "Press Fn on your computer to emit the beep again. The diagnostic app decodes the beep error and"
+    ],
+    "tools_needed": [],
+    "warnings": [
+      "Do not attempt to service a product yourself unless instructed to do so by the Customer Support"
+    ],
+    "raw_text": "Yes”, all data \nthat were created by the operating system or programs will be deleted except \nglobal variables defined by the Unified Extensible Firmware Interface \nSpecification. If you select “No”, all data will be kept, but the operating system or \nprograms will not be able to create, modify, or delete data in the storage.\nIf this error happens at a service center, Lenovo authorized service personnel will \nclean up the non-volatile system UEFI variable storage using the preceding \nsolution. \nFan error. Press ESC to startup \nwith limited performance.\nThe thermal fan might not work correctly. After the error message is displayed, \npress ESC within five seconds to start up the computer with limited performance. \nOtherwise, the computer will shut down immediately. If the problem still exists \nwhen you starts up next time, have your computer serviced. \n86\nL490/L590 User Guide\nBeep errors\nLenovo SmartBeep technology enables you to decode beep errors with your smartphone when a black \nscreen occurs with beeps from your computer. To decode the beep error with Lenovo SmartBeep \ntechnology: \n1. Go to https://support.lenovo.com/smartbeep or scan the following QR Code. \n2. Download the proper diagnostic app and install it on your smartphone.\n3. Run the diagnostic app and place the smartphone near the computer. \n4. Press Fn on your computer to emit the beep again. The diagnostic app decodes the beep error and \nshows possible solutions on the smartphone. \nNote: Do not attempt to service a product yourself unless instructed to do so by the Customer Support \nCenter or product documentation. Only use a Lenovo-authorized service provider to repair your product. \nChapter 8. Help and support\n87\nSelf-help resources\nUse the following self-help resources to learn more about the computer and troubleshoot problems.\nResources \nHow to access?\nUse Lenovo Vantage to: \n• Configure device settings.\n• Download and install UEFI BIOS, drivers, and firmware \nupdates.\n• Secure your computer from outside threats.\n• Diagnose hardware problems.\n• Check the computer warranty status.\n• Access User Guide and helpful articles.\n• Open the Start menu and click Lenovo Vantage.\n• Use Windows Search.\nProduct documentation: \n• Safety and Warranty Guide \n• Setup Guide \n• This User Guide\n• Regulatory Notice\nGo to https://pcsupport.lenovo.com. Then, follow the on- \nscreen instructions to filter out the documentation you \nwant. \nLenovo Support Web site with the latest support \ninformation of the following: \n• Driv",
+    "confidence": 0.8,
+    "source_file": "lenevo_thinkpad.pdf",
+    "brand": "lenovo",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "fan_issue",
+    "symptoms": [
+      "fan assembly"
+    ],
+    "solution_steps": [
+      "Reinstall the base cover assembly.",
+      "Turn over the computer. Connect the ac power adapter and all disconnected cables to the computer.",
+      "Disable the built-in battery. See “Disable Fast Startup and the built-in battery” on page 52.",
+      "Turn off the computer and disconnect the computer from ac power and all connected cables.",
+      "Close the computer display and turn over the computer.",
+      "Remove the base cover assembly. See “Base cover assembly” on page 52.",
+      "Remove the wireless-WAN card:",
+      "Install a new wireless-WAN card:"
+    ],
+    "tools_needed": [],
+    "warnings": [
+      "If your computer is installed with only one memory module, ensure that the memory module is installed in the memory slot next to the thermal fan assembly. 7. Reinstall the base cover assembly. 8. Turn over the computer. Connect the ac power adapter and all disconnected cables to the computer.",
+      "A Mylar film might cover the wireless-WAN card. To access the wireless-WAN card, peel off the film first. a. Gently disconnect the wireless cable connectors with your fingers 1 . Then, remove the screw that secures the wireless-WAN card 2 and the card pops up. b. Carefully remove the wireless-WAN card out of the slot 3 ."
+    ],
+    "raw_text": "lace the notched end of the new memory module toward the contact edge side of the memory slot. \nThen, insert the new memory module into the memory slot at an angle of about 20 degrees 1 .\nb. Pivot the memory module downward until it snaps into place 2 . Ensure that the memory module is \nfirmly installed in the memory slot and cannot be moved easily.\nNote: If your computer is installed with only one memory module, ensure that the memory module is \ninstalled in the memory slot next to the thermal fan assembly.\n7. Reinstall the base cover assembly.\n8. Turn over the computer. Connect the ac power adapter and all disconnected cables to the computer.\nWireless WAN card (for selected models)\nThe following information is only for the computer with user-installable modules.\nThe following information is only for the computer with user-installable modules. Ensure that you use only a \nLenovo-authorized wireless module specifically tested for this computer model. Otherwise, the computer will \ngenerate an error-code beep sequence when you turn on the computer.\nPrerequisite\nBefore you start, read Appendix A “Important safety information” on page 91 and print the following \ninstructions.\nAttention: Do not touch the contact edge of the wireless-WAN card. Otherwise, the wireless-WAN card \nmight get damaged.\nReplacement procedure\n1. Disable the built-in battery. See “Disable Fast Startup and the built-in battery” on page 52.\n2. Turn off the computer and disconnect the computer from ac power and all connected cables.\n3. Close the computer display and turn over the computer.\n4. Remove the base cover assembly. See “Base cover assembly” on page 52.\n56\nL490/L590 User Guide\n5. Remove the wireless-WAN card: \nNote: A Mylar film might cover the wireless-WAN card. To access the wireless-WAN card, peel off the \nfilm first.\na. Gently disconnect the wireless cable connectors with your fingers 1 . Then, remove the screw that \nsecures the wireless-WAN card 2 and the card pops up.\nb. Carefully remove the wireless-WAN card out of the slot 3 .\nChapter 7. CRU replacement\n57\n6. Install a new wireless-WAN card: \na. Align the contact edge of the new wireless-WAN card with the key in the slot. Then, carefully insert \nthe card into the slot at an angle of about 20 degrees 1 and pivot the card downward 2 .\nb. Install the screw to secure the wireless-WAN card in place 3 . Connect the wireless cable connectors \nto the card 4 . Ensure that you connect the orange cable to the main connector on the card, and the \nblu",
+    "confidence": 0.8,
+    "source_file": "lenevo_thinkpad.pdf",
+    "brand": "lenovo",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "overheating",
+    "symptoms": [
+      "overheat"
+    ],
+    "solution_steps": [
+      "The PC's firmware setup utility, or",
+      "Lenovo Vantage or Lenovo PC Manager",
+      "Open the firmware setup utility",
+      "Display the boot device selection menu",
+      "Display the Windows advanced startup options page",
+      "14–inch models: 313 mm (12.3 inches)",
+      "16–inch models: 356 mm (14 inches)",
+      "14–inch models: 227 mm (8.9 inches)",
+      "16–inch models: 255 mm (10 inches)",
+      "16–inch models: 19.5 mm (0.77 inches)",
+      "Low Power Double Data Rate 5x (LPDDR5x), or",
+      "Low Power Double Data Rate 5 (LPDDR5)",
+      "14–inch models: 355.6 mm (14 inches)",
+      "16–inch models: 406.4 mm (16 inches)"
+    ],
+    "tools_needed": [],
+    "warnings": [
+      "When the PC is operating, do not place it on a bed, sofa, carpet, or other flexible surfaces.",
+      "The Novo button is rarely used during normal PC operations. To prevent users from accidentally pressing it, the Novo button is placed in a recessed hole. You can use a straightened paper clip to press this button."
+    ],
+    "raw_text": "e, or in hibernation \nmode.\nThe always-on function can be turned on and off in:\n• The PC's firmware setup utility, or\n• Lenovo Vantage or Lenovo PC Manager\n8\nUser Guide\nBottom\nNo.\nDescription\n1\nAir vents (intake)\n2\nNovo button hole\nAir vents (intake)\nThe air vents allow air to be sucked inside of the PC to cool the internal components.\nImportant: When the PC is operating, do not place it on a bed, sofa, carpet, or other flexible surfaces. \nOtherwise, the air vents will be blocked and the PC may overheat, reducing performance or causing the PC \nto be unresponsive or even shut down.\nNovo button hole\nWhen the PC is powered off, you can press the Novo button to display the Novo button menu. From the \nmenu, you can then choose to:\n• Open the firmware setup utility\n• Display the boot device selection menu\n• Display the Windows advanced startup options page\nNote: The Novo button is rarely used during normal PC operations. To prevent users from accidentally \npressing it, the Novo button is placed in a recessed hole. You can use a straightened paper clip to press this \nbutton.\nChapter 1. Meet your computer\n9\nFeatures and specifications\nDimensions\nItem\nValue or specification\nWidth\n• 14–inch models: 313 mm (12.3 inches)\n• 16–inch models: 356 mm (14 inches)\nDepth\n• 14–inch models: 227 mm (8.9 inches)\n• 16–inch models: 255 mm (10 inches)\nThickness\n• 14–inch models:  \n– Metal models: 18.9 mm (0.74 inches)\n– Plastic models: 19.3 mm (0.76 inches)\n• 16–inch models: 19.5 mm (0.77 inches)\nac power adapter\nItem\nValue or specification\nInput\n100 V ac–240 V ac, 50 Hz–60 Hz\nOutput\n20 V dc, 3.25 A\nPower\n65 W\nBattery pack\nItem\nValue or specification\nCapacity\n57 Wh \nNote: The battery capacity is the typical or average capacity as measured in a \nspecific test environment. Capacities measured in other environments may differ \nbut are no lower than the rated capacity (see product label).\nNumber of cells\n3\nMicroprocessor\nItem\nValue or specification\nTo view the microprocessor information of your computer, type system information in the Windows search box and \nthen press Enter.\nMemory\nItem\nValue or specification\nType\n• Low Power Double Data Rate 5x (LPDDR5x), or\n• Low Power Double Data Rate 5 (LPDDR5)\nNumber of physical slots\n0\n10\nUser Guide\nMass storage device\nItem\nValue or specification\nType\nSolid-state drive\nForm factor\nM.2 (2242)\nBus\nPCI Express\nScreen\nItem\nValue or specification\nSize\n• 14–inch models: 355.6 mm (14 inches)\n• 16–inch models: 406.4 mm (16 inches)\nDisplay resolution\n• 14–inch mo",
+    "confidence": 0.8,
+    "source_file": "lenevo_user-manual.pdf",
+    "brand": "lenovo",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "battery_issue",
+    "symptoms": [
+      "power adapter"
+    ],
+    "solution_steps": [
+      "Storage or peripheral devices that follow the universal serial bus (USB) specification for data transfer and",
+      "Storage or peripheral devices that follow the universal serial bus (USB) specification for data transfer and"
+    ],
+    "tools_needed": [],
+    "warnings": [
+      "The antennas are hidden inside the PC. 4",
+      "When connecting display devices, you need to use appropriate cables and adapters (if needed) according to the connection capabilities of the display device."
+    ],
+    "raw_text": "a Wi-Fi® \nnetwork device or a Bluetooth device.\nNote: The antennas are hidden inside the PC.\n4\nUser Guide\nLeft\nNo.\nDescription\n1\nHDMI™ connector\n2\nMulti-purpose USB Type-C® connector\n3\nCharging light\n4\nMulti-purpose USB Type-C connector\n5\nCombo audio jack\nHDMI connector\nThe HDMI connector is used to connect an external display device, such as a television, a projector, or a \nmonitor.\nMulti-purpose USB Type-C connector\nThis USB Type-C connector is the PC's power input connector. Use the included power adapter and this \nconnector to supply power to the PC.\nWhen this connector is not used by the included power adapter, it can also be used to connect:\n• Storage or peripheral devices that follow the universal serial bus (USB) specification for data transfer and \ndevice interconnection\n• Display devices \nNote: When connecting display devices, you need to use appropriate cables and adapters (if needed) \naccording to the connection capabilities of the display device.\nCharging light\nThe charging light indicates whether the PC is plugged into an electrical outlet. When the PC is plugged into \nan electrical outlet, the color of the light indicates whether the battery is fully charged (or will shortly be fully \ncharged).\nChapter 1. Meet your computer\n5\nTable 3.  Charging light statuses and descriptions\nLight status\nPlugged in?\nBattery charge level\nOff\nNo\n/\nOn, amber\nYes\n1%–90%\nOn, white\nYes\n91%–100% \nMulti-purpose USB Type-C connector\nThis multi-purpose USB Type-C connector is used to connect:\n• Storage or peripheral devices that follow the universal serial bus (USB) specification for data transfer and \ndevice interconnection\n• Display devices \nNote: When connecting display devices, you need to use appropriate cables and adapters (if needed) \naccording to the connection capabilities of the display device.\nCombo audio jack\nThe combo audio jack is used to connect single-plug headsets, headphones, or external speakers.\n6\nUser Guide\nRight\nNo.\nDescription\n1\nPower light\n2\nPower button\n3\nmicroSD card slot\n4\nUSB Standard-A connector\n5\nUSB Standard-A connector (always-on connector)\nPower light\nThe power light indicates the current power state of the PC: whether it is powered on, powered off, in sleep \nmode, or in hibernation mode.\nWhen the PC is powered on, this light can also indicate low battery by blinking rapidly.\nTable 4.  Power light status and description\nLight status\nPower state\nBattery charge level\nWhite (solid on)\nPowered on\n21%–100%\nWhite (blinking rapidly)\nPowered on \n1%–20%\nWh",
+    "confidence": 0.8,
+    "source_file": "lenevo_user-manual.pdf",
+    "brand": "lenovo",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "battery_issue",
+    "symptoms": [
+      "power adapter"
+    ],
+    "solution_steps": [
+      "Storage or peripheral devices that follow the universal serial bus (USB) specification for data transfer and",
+      "Storage or peripheral devices that follow the universal serial bus (USB) specification for data transfer and"
+    ],
+    "tools_needed": [],
+    "warnings": [
+      "When connecting display devices, you need to use appropriate cables and adapters (if needed) according to the connection capabilities of the display device.",
+      "When connecting display devices, you need to use appropriate cables and adapters (if needed) according to the connection capabilities of the display device."
+    ],
+    "raw_text": "t\nNo.\nDescription\n1\nHDMI™ connector\n2\nMulti-purpose USB Type-C® connector\n3\nCharging light\n4\nMulti-purpose USB Type-C connector\n5\nCombo audio jack\nHDMI connector\nThe HDMI connector is used to connect an external display device, such as a television, a projector, or a \nmonitor.\nMulti-purpose USB Type-C connector\nThis USB Type-C connector is the PC's power input connector. Use the included power adapter and this \nconnector to supply power to the PC.\nWhen this connector is not used by the included power adapter, it can also be used to connect:\n• Storage or peripheral devices that follow the universal serial bus (USB) specification for data transfer and \ndevice interconnection\n• Display devices \nNote: When connecting display devices, you need to use appropriate cables and adapters (if needed) \naccording to the connection capabilities of the display device.\nCharging light\nThe charging light indicates whether the PC is plugged into an electrical outlet. When the PC is plugged into \nan electrical outlet, the color of the light indicates whether the battery is fully charged (or will shortly be fully \ncharged).\nChapter 1. Meet your computer\n5\nTable 3.  Charging light statuses and descriptions\nLight status\nPlugged in?\nBattery charge level\nOff\nNo\n/\nOn, amber\nYes\n1%–90%\nOn, white\nYes\n91%–100% \nMulti-purpose USB Type-C connector\nThis multi-purpose USB Type-C connector is used to connect:\n• Storage or peripheral devices that follow the universal serial bus (USB) specification for data transfer and \ndevice interconnection\n• Display devices \nNote: When connecting display devices, you need to use appropriate cables and adapters (if needed) \naccording to the connection capabilities of the display device.\nCombo audio jack\nThe combo audio jack is used to connect single-plug headsets, headphones, or external speakers.\n6\nUser Guide\nRight\nNo.\nDescription\n1\nPower light\n2\nPower button\n3\nmicroSD card slot\n4\nUSB Standard-A connector\n5\nUSB Standard-A connector (always-on connector)\nPower light\nThe power light indicates the current power state of the PC: whether it is powered on, powered off, in sleep \nmode, or in hibernation mode.\nWhen the PC is powered on, this light can also indicate low battery by blinking rapidly.\nTable 4.  Power light status and description\nLight status\nPower state\nBattery charge level\nWhite (solid on)\nPowered on\n21%–100%\nWhite (blinking rapidly)\nPowered on \n1%–20%\nWhite (blinking slowly)\nIn sleep mode\n/\nOff\nPowered off or in hibernation mode\n/\nPower button\nPress the power b",
+    "confidence": 0.8,
+    "source_file": "lenevo_user-manual.pdf",
+    "brand": "lenovo",
+    "manual_type": "service_manual"
+  },
+  {
+    "issue_type": "battery_issue",
+    "symptoms": [
+      "power adapter"
+    ],
+    "solution_steps": [
+      "14–inch models: 313 mm (12.3 inches)",
+      "16–inch models: 356 mm (14 inches)",
+      "14–inch models: 227 mm (8.9 inches)",
+      "16–inch models: 255 mm (10 inches)",
+      "16–inch models: 19.5 mm (0.77 inches)",
+      "Low Power Double Data Rate 5x (LPDDR5x), or",
+      "Low Power Double Data Rate 5 (LPDDR5)",
+      "14–inch models: 355.6 mm (14 inches)",
+      "16–inch models: 406.4 mm (16 inches)",
+      "14–inch models: 1920 × 1200 pixels (WUXGA model)"
+    ],
+    "tools_needed": [],
+    "warnings": [
+      "The battery capacity is the typical or average capacity as measured in a specific test environment. Capacities measured in other environments may differ but are no lower than the rated capacity (see product label)."
+    ],
+    "raw_text": "laced in a recessed hole. You can use a straightened paper clip to press this \nbutton.\nChapter 1. Meet your computer\n9\nFeatures and specifications\nDimensions\nItem\nValue or specification\nWidth\n• 14–inch models: 313 mm (12.3 inches)\n• 16–inch models: 356 mm (14 inches)\nDepth\n• 14–inch models: 227 mm (8.9 inches)\n• 16–inch models: 255 mm (10 inches)\nThickness\n• 14–inch models:  \n– Metal models: 18.9 mm (0.74 inches)\n– Plastic models: 19.3 mm (0.76 inches)\n• 16–inch models: 19.5 mm (0.77 inches)\nac power adapter\nItem\nValue or specification\nInput\n100 V ac–240 V ac, 50 Hz–60 Hz\nOutput\n20 V dc, 3.25 A\nPower\n65 W\nBattery pack\nItem\nValue or specification\nCapacity\n57 Wh \nNote: The battery capacity is the typical or average capacity as measured in a \nspecific test environment. Capacities measured in other environments may differ \nbut are no lower than the rated capacity (see product label).\nNumber of cells\n3\nMicroprocessor\nItem\nValue or specification\nTo view the microprocessor information of your computer, type system information in the Windows search box and \nthen press Enter.\nMemory\nItem\nValue or specification\nType\n• Low Power Double Data Rate 5x (LPDDR5x), or\n• Low Power Double Data Rate 5 (LPDDR5)\nNumber of physical slots\n0\n10\nUser Guide\nMass storage device\nItem\nValue or specification\nType\nSolid-state drive\nForm factor\nM.2 (2242)\nBus\nPCI Express\nScreen\nItem\nValue or specification\nSize\n• 14–inch models: 355.6 mm (14 inches)\n• 16–inch models: 406.4 mm (16 inches)\nDisplay resolution\n• 14–inch models: 1920 × 1200 pixels (WUXGA model)\n• 16–inch models: \n– 1920 × 1200 pixels (WUXGA model), or\n– 2048 × 1280 pixels\nKeyboard\nItem\nValue or specification\nBacklight color\nWhite\nShortcut keys\n• Function keys\n• Hotkeys\nModifier keys\n• Alt key\n• Ctrl key\n• Shift key\n• Windows key\n• Fn key\nSpecial keys or key group\nNumeric keypad*\nConnectors and slots\nItem\nValue or specification\nCombo audio jack\n• Diameter: 3.5 mm\n• Supported plugs: \n– 3–pole, TRS\n– 4–pole, TRRS (CTIA and OMTP)\nHDMI connector\n• Supported signaling protocol: Transition minimized differential signaling \n(TMDS)\n• Maximum output resolution: 3840 × 2160 @ 30 Hz\nChapter 1. Meet your computer\n11\nItem\nValue or specification\nMemory card slot\nSupported card types: \n• microSD card\n• microSDHC card\n• microSDXC card\nUSB Standard-A connector\n• Quantity: 2\n• Maximum power output: \n– 5 V, 0.9 A\n– 5 V, 1.5 A (for always-on connector)\n• Supported signaling protocols: \n– USB 2.0 480 Mbps\n– SuperSpeed USB 5 Gbps\nMulti-purpose USB Type-C \nconnect",
+    "confidence": 0.8,
+    "source_file": "lenevo_user-manual.pdf",
+    "brand": "lenovo",
+    "manual_type": "service_manual"
+  }
+]

@@ -1,0 +1,123 @@
+# YOLOv8 Dataset Configuration for Laptop Component Detection
+# Path: backend/ar_layer/yolo_training/laptop_classes.yaml
+
+# Dataset paths (relative to this file)
+path: ../../../datasets/laptop_components  # Root directory
+train: images/train  # Training images
+val: images/val      # Validation images
+test: images/test    # Test images (optional)
+
+# Number of classes
+nc: 15
+
+# Class names (ordered by importance for repair)
+names:
+  0: screw_phillips
+  1: screw_torx
+  2: screw_flathead
+  3: battery
+  4: ram_slot
+  5: ram_module
+  6: ssd
+  7: hdd
+  8: cooling_fan
+  9: heat_sink
+  10: connector_power
+  11: connector_display
+  12: bottom_panel
+  13: keyboard
+  14: touchpad
+
+# Class metadata for AR guidance
+class_metadata:
+  screw_phillips:
+    color: [0, 255, 0]  # Green for screws
+    action: "remove"
+    tool: "Phillips #0 screwdriver"
+    importance: "critical"
+  
+  screw_torx:
+    color: [0, 255, 100]
+    action: "remove"
+    tool: "Torx T5 screwdriver"
+    importance: "critical"
+  
+  screw_flathead:
+    color: [0, 255, 200]
+    action: "remove"
+    tool: "Flathead screwdriver"
+    importance: "critical"
+  
+  battery:
+    color: [255, 200, 0]  # Orange
+    action: "disconnect"
+    tool: "None"
+    importance: "critical"
+    warning: "Disconnect before any other work"
+  
+  ram_slot:
+    color: [100, 100, 255]  # Blue
+    action: "locate"
+    tool: "None"
+    importance: "medium"
+  
+  ram_module:
+    color: [150, 150, 255]
+    action: "remove"
+    tool: "None (push clips)"
+    importance: "medium"
+  
+  ssd:
+    color: [200, 100, 255]  # Purple
+    action: "remove"
+    tool: "Phillips screwdriver"
+    importance: "high"
+  
+  hdd:
+    color: [255, 100, 200]
+    action: "remove"
+    tool: "Phillips screwdriver"
+    importance: "high"
+  
+  cooling_fan:
+    color: [0, 200, 200]  # Cyan
+    action: "clean/remove"
+    tool: "Phillips screwdriver"
+    importance: "high"
+  
+  heat_sink:
+    color: [100, 200, 200]
+    action: "remove"
+    tool: "Phillips screwdriver"
+    importance: "high"
+    warning: "Clean thermal paste before reinstalling"
+  
+  connector_power:
+    color: [255, 0, 0]  # Red
+    action: "disconnect"
+    tool: "None (careful pull)"
+    importance: "critical"
+  
+  connector_display:
+    color: [255, 100, 0]
+    action: "disconnect"
+    tool: "None (lift connector)"
+    importance: "high"
+  
+  bottom_panel:
+    color: [150, 150, 150]  # Gray
+    action: "remove"
+    tool: "Phillips screwdriver"
+    importance: "critical"
+  
+  keyboard:
+    color: [200, 200, 0]  # Yellow
+    action: "remove"
+    tool: "Phillips screwdriver + pry tool"
+    importance: "medium"
+  
+  touchpad:
+    color: [200, 200, 100]
+    action: "remove"
+    tool: "Phillips screwdriver"
+    importance: "medium"

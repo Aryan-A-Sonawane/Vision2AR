@@ -1,0 +1,362 @@
+% Mathematical Equations for IEEE Paper
+% AR-Guided Device Repair System with Belief-Driven Diagnosis
+% Copy-paste these equations into your IEEE LaTeX paper
+
+\documentclass[conference]{IEEEtran}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+\begin{document}
+
+% ============================================================================
+% SECTION: Multi-Modal Input Processing
+% ============================================================================
+
+\section*{A. Multi-Modal Input Processing}
+
+\subsection*{1. Semantic Symptom Embedding}
+The user symptom description is encoded using sentence-transformers (all-MiniLM-L6-v2) to generate a dense vector representation:
+
+\begin{equation}
+\mathbf{v}_{\text{symptom}} = \text{Encoder}(T_{\text{input}}) \in \mathbb{R}^{384}
+\end{equation}
+
+where $T_{\text{input}}$ is the tokenized symptom text and $\mathbf{v}_{\text{symptom}}$ is the 384-dimensional embedding vector.
+
+\subsection*{2. Visual Context Extraction}
+For image-based symptom input, BLIP-2 generates contextual descriptions:
+
+\begin{equation}
+T_{\text{visual}} = \text{BLIP-2}(I_{\text{input}}, P_{\text{prompt}})
+\end{equation}
+
+where $I_{\text{input}}$ is the input image and $P_{\text{prompt}}$ is the guided prompt ("Describe hardware symptoms visible in this device image").
+
+\subsection*{3. Multi-Modal Fusion}
+Combined symptom representation merges text and visual embeddings:
+
+\begin{equation}
+\mathbf{v}_{\text{fused}} = \alpha \cdot \mathbf{v}_{\text{symptom}} + (1-\alpha) \cdot \text{Encoder}(T_{\text{visual}})
+\end{equation}
+
+where $\alpha \in [0,1]$ is the text-visual balance weight (default: $\alpha = 0.7$ for text-priority).
+
+% ============================================================================
+% SECTION: Belief Vector Initialization
+% ============================================================================
+
+\section*{B. Bayesian Belief Vector Initialization}
+
+\subsection*{4. Vector Similarity Search}
+The system retrieves top-$k$ similar historical repair cases using cosine similarity:
+
+\begin{equation}
+\text{sim}(\mathbf{v}_{\text{fused}}, \mathbf{v}_i) = \frac{\mathbf{v}_{\text{fused}} \cdot \mathbf{v}_i}{\|\mathbf{v}_{\text{fused}}\| \|\mathbf{v}_i\|}
+\end{equation}
+
+where $\mathbf{v}_i$ represents stored symptom embeddings in the vector database.
+
+\subsection*{5. Initial Belief Distribution}
+The prior belief distribution over causes $C = \{c_1, c_2, \ldots, c_n\}$ is initialized using weighted similarity:
+
+\begin{equation}
+P(c_j | \mathbf{v}_{\text{fused}}) = \frac{\sum_{i \in \mathcal{N}_k} \text{sim}(\mathbf{v}_{\text{fused}}, \mathbf{v}_i) \cdot \mathbb{I}[\text{cause}_i = c_j]}{\sum_{i \in \mathcal{N}_k} \text{sim}(\mathbf{v}_{\text{fused}}, \mathbf{v}_i)}
+\end{equation}
+
+where $\mathcal{N}_k$ is the set of top-$k$ nearest neighbors and $\mathbb{I}[\cdot]$ is the indicator function.
+
+\subsection*{6. Uniform Prior Fallback}
+If no strong matches exist ($\max_j P(c_j) < \theta_{\text{min}}$), use uniform distribution:
+
+\begin{equation}
+P(c_j) = \frac{1}{|C|}, \quad \forall c_j \in C
+\end{equation}
+
+% ============================================================================
+% SECTION: Adaptive Question Selection
+% ============================================================================
+
+\section*{C. Information Gain Maximization}
+
+\subsection*{7. Entropy of Belief Distribution}
+Current diagnostic uncertainty is measured using Shannon entropy:
+
+\begin{equation}
+H(\mathbf{P}) = -\sum_{j=1}^{|C|} P(c_j) \log_2 P(c_j)
+\end{equation}
+
+\subsection*{8. Expected Information Gain}
+For each candidate question $q_i$, compute expected information gain:
+
+\begin{equation}
+\text{IG}(q_i) = H(\mathbf{P}_{\text{current}}) - \mathbb{E}_{a \sim q_i}[H(\mathbf{P} | q_i = a)]
+\end{equation}
+
+where $a$ represents possible answers (e.g., \textit{yes}, \textit{no}).
+
+\subsection*{9. Expected Entropy After Answer}
+The conditional entropy given answer $a$ is:
+
+\begin{equation}
+H(\mathbf{P} | q_i = a) = -\sum_{j=1}^{|C|} P(c_j | q_i = a) \log_2 P(c_j | q_i = a)
+\end{equation}
+
+\subsection*{10. Question Selection Policy}
+Select question maximizing information gain while avoiding redundancy:
+
+\begin{equation}
+q^* = \argmax_{q_i \in Q \setminus Q_{\text{asked}}} \left[ \text{IG}(q_i) - \lambda \cdot \text{Redundancy}(q_i) \right]
+\end{equation}
+
+where $\lambda$ is the redundancy penalty weight and $Q_{\text{asked}}$ is the set of previously asked questions.
+
+% ============================================================================
+% SECTION: Bayesian Belief Update
+% ============================================================================
+
+\section*{D. Bayesian Belief Propagation}
+
+\subsection*{11. Belief Update Rule}
+Upon receiving answer $a$ to question $q$, update beliefs using Bayes' theorem:
+
+\begin{equation}
+P(c_j | q=a) = \frac{P(a | c_j, q) \cdot P(c_j)}{\sum_{k=1}^{|C|} P(a | c_k, q) \cdot P(c_k)}
+\end{equation}
+
+\subsection*{12. Likelihood Function}
+The likelihood $P(a | c_j, q)$ is modeled using learned evidence weights:
+
+\begin{equation}
+P(a | c_j, q) = \begin{cases}
+\mu_{q,c_j}^{+} & \text{if } a = \text{yes} \\
+\mu_{q,c_j}^{-} & \text{if } a = \text{no} \\
+0.5 & \text{if } a = \text{uncertain}
+\end{cases}
+\end{equation}
+
+where $\mu_{q,c_j}^{+}$ and $\mu_{q,c_j}^{-}$ are learned multipliers from historical data.
+
+\subsection*{13. Multiplicative Update (Simplified)}
+For computational efficiency, use log-space multiplicative updates:
+
+\begin{equation}
+P_{\text{new}}(c_j) \propto P_{\text{old}}(c_j) \cdot \text{LikelihoodRatio}(a, c_j, q)
+\end{equation}
+
+\subsection*{14. Normalization}
+Normalize updated beliefs to maintain probability distribution:
+
+\begin{equation}
+P_{\text{norm}}(c_j) = \frac{P_{\text{new}}(c_j)}{\sum_{k=1}^{|C|} P_{\text{new}}(c_k)}
+\end{equation}
+
+% ============================================================================
+% SECTION: Convergence Criteria
+% ============================================================================
+
+\section*{E. Diagnostic Convergence}
+
+\subsection*{15. Confidence Threshold}
+Stop questioning when maximum belief exceeds threshold:
+
+\begin{equation}
+\max_{j} P(c_j) \geq \theta_{\text{conf}} \quad \text{where } \theta_{\text{conf}} = 0.70
+\end{equation}
+
+\subsection*{16. Maximum Questions Limit}
+Terminate if question budget exhausted:
+
+\begin{equation}
+|Q_{\text{asked}}| \geq N_{\text{max}} \quad \text{where } N_{\text{max}} = 5
+\end{equation}
+
+\subsection*{17. Entropy Convergence}
+Alternatively, stop when entropy reduction rate becomes negligible:
+
+\begin{equation}
+\frac{H(\mathbf{P}_{t-1}) - H(\mathbf{P}_t)}{H(\mathbf{P}_{t-1})} < \epsilon_{\text{conv}}
+\end{equation}
+
+where $\epsilon_{\text{conv}} = 0.05$ (5\% reduction threshold).
+
+% ============================================================================
+% SECTION: Tutorial Matching
+% ============================================================================
+
+\section*{F. Semantic Tutorial Retrieval}
+
+\subsection*{18. Diagnosis-Tutorial Matching Score}
+Retrieve tutorials using combined semantic and structural matching:
+
+\begin{equation}
+\text{Score}(t, d) = \beta \cdot \text{sim}_{\text{sem}}(t, d) + (1-\beta) \cdot \text{sim}_{\text{struct}}(t, d)
+\end{equation}
+
+where $t$ is the tutorial, $d$ is the diagnosis, $\beta = 0.6$ (semantic weight).
+
+\subsection*{19. Semantic Similarity}
+\begin{equation}
+\text{sim}_{\text{sem}}(t, d) = \frac{\mathbf{v}_{\text{tutorial}} \cdot \mathbf{v}_{\text{diagnosis}}}{\|\mathbf{v}_{\text{tutorial}}\| \|\mathbf{v}_{\text{diagnosis}}\|}
+\end{equation}
+
+\subsection*{20. Structural Similarity}
+\begin{equation}
+\text{sim}_{\text{struct}}(t, d) = \frac{|\text{Keywords}_t \cap \text{Keywords}_d|}{|\text{Keywords}_t \cup \text{Keywords}_d|}
+\end{equation}
+
+% ============================================================================
+% SECTION: YOLOv8 Component Detection
+% ============================================================================
+
+\section*{G. AR Component Detection}
+
+\subsection*{21. YOLOv8 Detection Output}
+For each detected component, YOLOv8 produces bounding box and confidence:
+
+\begin{equation}
+\text{Detection}_i = \left( [x_i, y_i, w_i, h_i], c_i, p_i \right)
+\end{equation}
+
+where $(x_i, y_i)$ is the center coordinate, $(w_i, h_i)$ is the box dimensions, $c_i$ is the class label, and $p_i$ is the confidence score.
+
+\subsection*{22. Non-Maximum Suppression}
+Eliminate overlapping detections using IoU threshold:
+
+\begin{equation}
+\text{IoU}(b_i, b_j) = \frac{\text{Area}(b_i \cap b_j)}{\text{Area}(b_i \cup b_j)}
+\end{equation}
+
+Suppress box $b_j$ if $\text{IoU}(b_i, b_j) > \theta_{\text{NMS}}$ and $p_j < p_i$, where $\theta_{\text{NMS}} = 0.45$.
+
+\subsection*{23. Anchor Matching}
+Match live detections to reference anchors using spatial distance:
+
+\begin{equation}
+\text{dist}(d_i, a_j) = \sqrt{(x_{d_i} - x_{a_j})^2 + (y_{d_i} - y_{a_j})^2}
+\end{equation}
+
+Assign detection $d_i$ to anchor $a_j$ if:
+\begin{equation}
+a_j^* = \argmin_{a_j \in A} \text{dist}(d_i, a_j), \quad \text{subject to } \text{dist}(d_i, a_j^*) < \delta_{\text{max}}
+\end{equation}
+
+where $\delta_{\text{max}} = 100$ pixels (tolerance threshold).
+
+% ============================================================================
+% SECTION: Learning System
+% ============================================================================
+
+\section*{H. Continuous Learning}
+
+\subsection*{24. Question Effectiveness Scoring}
+After successful diagnosis, update question effectiveness:
+
+\begin{equation}
+\text{Effectiveness}(q_i) = \frac{\sum_{s \in S_{\text{success}}} \mathbb{I}[q_i \in s] \cdot \text{IG}_s(q_i)}{\sum_{s \in S_{\text{all}}} \mathbb{I}[q_i \in s]}
+\end{equation}
+
+where $S_{\text{success}}$ is the set of successful diagnostic sessions.
+
+\subsection*{25. Belief Update Learning}
+Refine likelihood multipliers using repair feedback:
+
+\begin{equation}
+\mu_{q,c}^{\text{new}} = (1-\gamma) \cdot \mu_{q,c}^{\text{old}} + \gamma \cdot \frac{\sum_{s \in S_c} \mathbb{I}[q=\text{yes}, \text{outcome}=c]}{\sum_{s \in S_c} \mathbb{I}[q \text{ asked}]}
+\end{equation}
+
+where $\gamma = 0.1$ is the learning rate and $S_c$ is sessions with true cause $c$.
+
+\subsection*{26. Embedding Update (Optional)}
+Fine-tune symptom embeddings using contrastive loss:
+
+\begin{equation}
+\mathcal{L}_{\text{contrastive}} = \sum_{i,j} \left[ y_{ij} \|\mathbf{v}_i - \mathbf{v}_j\|^2 + (1-y_{ij}) \max(0, m - \|\mathbf{v}_i - \mathbf{v}_j\|)^2 \right]
+\end{equation}
+
+where $y_{ij} = 1$ if symptoms $i$ and $j$ share the same root cause, $m$ is the margin (default: $m=1.0$).
+
+% ============================================================================
+% ALGORITHM PSEUDOCODE
+% ============================================================================
+
+\section*{I. Complete Diagnostic Algorithm}
+
+\begin{algorithm}
+\caption{Adaptive Belief-Driven Diagnosis}
+\begin{algorithmic}[1]
+\STATE \textbf{Input:} User symptom $T_{\text{input}}$, optional image $I_{\text{input}}$
+\STATE \textbf{Output:} Diagnosis $c^*$, Tutorial set $\mathcal{T}$
+\STATE
+\STATE $\mathbf{v}_{\text{fused}} \gets \text{Embed}(T_{\text{input}}, I_{\text{input}})$ \COMMENT{Eq. 1-3}
+\STATE $\mathbf{P} \gets \text{InitializeBeliefs}(\mathbf{v}_{\text{fused}})$ \COMMENT{Eq. 5-6}
+\STATE $Q_{\text{asked}} \gets \emptyset$
+\STATE
+\WHILE{$\max_j P(c_j) < \theta_{\text{conf}}$ \AND $|Q_{\text{asked}}| < N_{\text{max}}$}
+    \STATE $q^* \gets \argmax_{q_i} \text{IG}(q_i)$ \COMMENT{Eq. 8-10}
+    \STATE $a \gets \text{AskUser}(q^*)$
+    \STATE $\mathbf{P} \gets \text{UpdateBelief}(\mathbf{P}, q^*, a)$ \COMMENT{Eq. 11-14}
+    \STATE $Q_{\text{asked}} \gets Q_{\text{asked}} \cup \{q^*\}$
+\ENDWHILE
+\STATE
+\STATE $c^* \gets \argmax_j P(c_j)$
+\STATE $\mathcal{T} \gets \text{RetrieveTutorials}(c^*, \mathbf{v}_{\text{fused}})$ \COMMENT{Eq. 18-20}
+\STATE \textbf{return} $c^*, \mathcal{T}$
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}
+\caption{AR-Guided Repair Execution}
+\begin{algorithmic}[1]
+\STATE \textbf{Input:} Tutorial $t$, Camera stream $\mathcal{F}$
+\STATE \textbf{Output:} Repair completion status
+\STATE
+\STATE Load category-specific YOLOv8 model $M_{\text{category}}$
+\STATE $\mathcal{A}_{\text{ref}} \gets \text{ProcessReferenceImage}(t.\text{step\_images})$ \COMMENT{Eq. 21-22}
+\STATE
+\FOR{each frame $f \in \mathcal{F}$}
+    \STATE $\mathcal{D}_{\text{live}} \gets M_{\text{category}}(f)$ \COMMENT{Live detection}
+    \STATE $\mathcal{M} \gets \text{MatchAnchors}(\mathcal{D}_{\text{live}}, \mathcal{A}_{\text{ref}})$ \COMMENT{Eq. 23-24}
+    \STATE $f_{\text{overlay}} \gets \text{DrawOverlay}(f, \mathcal{M})$
+    \STATE Display $f_{\text{overlay}}$ in WebXR viewer
+    \IF{all critical components matched}
+        \STATE Proceed to next step
+    \ENDIF
+\ENDFOR
+\end{algorithmic}
+\end{algorithm}
+
+% ============================================================================
+% NOTATION TABLE
+% ============================================================================
+
+\section*{J. Notation Summary}
+
+\begin{table}[h]
+\centering
+\caption{Mathematical Notation}
+\begin{tabular}{|c|l|}
+\hline
+\textbf{Symbol} & \textbf{Description} \\
+\hline
+$\mathbf{v}_{\text{symptom}}$ & Symptom embedding vector (384-dim) \\
+$T_{\text{input}}$ & User input text \\
+$I_{\text{input}}$ & User input image \\
+$\mathbf{P}$ & Belief distribution over causes \\
+$C = \{c_1, \ldots, c_n\}$ & Set of possible causes \\
+$P(c_j)$ & Probability of cause $c_j$ \\
+$H(\mathbf{P})$ & Entropy of belief distribution \\
+$\text{IG}(q_i)$ & Information gain of question $q_i$ \\
+$Q_{\text{asked}}$ & Set of asked questions \\
+$\theta_{\text{conf}}$ & Confidence threshold (0.70) \\
+$N_{\text{max}}$ & Maximum questions (5) \\
+$\mu_{q,c}^{\pm}$ & Likelihood multipliers \\
+$\mathcal{A}_{\text{ref}}$ & Reference anchor set \\
+$\mathcal{D}_{\text{live}}$ & Live detection set \\
+$\text{IoU}$ & Intersection over Union \\
+\hline
+\end{tabular}
+\end{table}
+
+\end{document}

@@ -1,0 +1,47 @@
+# FastAPI Backend
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+python-multipart==0.0.6
+python-dotenv==1.0.0
+
+# Data Source Integrations
+PyMuPDF==1.23.9  # PDF parsing for OEM manuals
+youtube-transcript-api==0.6.2  # YouTube transcript fetching
+requests==2.31.0  # HTTP client for iFixit API
+
+# Database
+psycopg2-binary>=2.9.0
+asyncpg==0.29.0
+sqlalchemy==1.4.54
+
+# Vector DB (Weaviate for production)
+weaviate-client==4.4.0
+
+# ML Models
+torch==2.1.2
+transformers==4.37.2
+sentence-transformers==2.3.1
+salesforce-lavis==1.0.2  # BLIP model for image-to-text
+openai-whisper==20231117
+ultralytics==8.1.11  # YOLOv8
+segment-anything==1.0  # SAM
+xgboost==2.0.3
+
+# Vision
+opencv-python==4.9.0.80
+pillow==10.2.0
+
+# Utilities
+numpy==1.26.3
+pandas==2.2.0
+aiofiles==23.2.1
+httpx==0.26.0
+
+# PDF processing
+PyPDF2==3.0.1
+pdfplumber==0.10.4
+
+# Video processing
+pytube==15.0.0
+moviepy==1.0.3

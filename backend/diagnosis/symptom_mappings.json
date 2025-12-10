@@ -1,0 +1,306 @@
+{
+  "patterns": [
+    {
+      "symptoms": ["blue_screen", "error_0x007B"],
+      "causes": {
+        "storage_driver_issue": 0.75,
+        "corrupted_boot_sector": 0.20,
+        "hardware_failure": 0.05
+      },
+      "confidence": 0.85,
+      "source": "oem_manual",
+      "category": "PC"
+    },
+    {
+      "symptoms": ["blue_screen", "error_0x0000007E"],
+      "causes": {
+        "driver_incompatibility": 0.65,
+        "memory_corruption": 0.25,
+        "malware": 0.10
+      },
+      "confidence": 0.80,
+      "source": "oem_manual",
+      "category": "PC"
+    },
+    {
+      "symptoms": ["no_boot", "black_screen", "fan_spinning"],
+      "causes": {
+        "ram_failure": 0.55,
+        "display_cable_loose": 0.25,
+        "gpu_failure": 0.15,
+        "motherboard_issue": 0.05
+      },
+      "confidence": 0.70,
+      "source": "oem_manual",
+      "category": "PC"
+    },
+    {
+      "symptoms": ["no_boot", "no_fan", "no_led"],
+      "causes": {
+        "power_supply_failure": 0.70,
+        "motherboard_dead": 0.20,
+        "power_button_stuck": 0.10
+      },
+      "confidence": 0.85,
+      "source": "oem_manual",
+      "category": "PC"
+    },
+    {
+      "symptoms": ["overheating", "thermal_shutdown"],
+      "causes": {
+        "fan_blocked": 0.50,
+        "thermal_paste_dried": 0.30,
+        "fan_failure": 0.15,
+        "excessive_dust": 0.05
+      },
+      "confidence": 0.75,
+      "source": "oem_manual",
+      "category": "PC"
+    },
+    {
+      "symptoms": ["slow_performance", "high_cpu"],
+      "causes": {
+        "background_processes": 0.40,
+        "malware": 0.25,
+        "thermal_throttling": 0.20,
+        "disk_fragmentation": 0.15
+      },
+      "confidence": 0.60,
+      "source": "oem_manual",
+      "category": "PC"
+    },
+    {
+      "symptoms": ["battery_not_charging"],
+      "causes": {
+        "charger_failure": 0.45,
+        "battery_dead": 0.30,
+        "charging_port_damaged": 0.15,
+        "driver_issue": 0.10
+      },
+      "confidence": 0.70,
+      "source": "oem_manual",
+      "category": "PC"
+    },
+    {
+      "symptoms": ["wifi_not_working", "no_networks_detected"],
+      "causes": {
+        "driver_missing": 0.50,
+        "wifi_adapter_disabled": 0.25,
+        "hardware_switch_off": 0.15,
+        "antenna_disconnected": 0.10
+      },
+      "confidence": 0.75,
+      "source": "oem_manual",
+      "category": "PC"
+    },
+    {
+      "symptoms": ["keyboard_issue"],
+      "causes": {
+        "driver_issue": 0.40,
+        "liquid_damage": 0.30,
+        "ribbon_cable_loose": 0.20,
+        "physical_damage": 0.10
+      },
+      "confidence": 0.65,
+      "source": "oem_manual",
+      "category": "PC"
+    },
+    {
+      "symptoms": ["trackpad_issue"],
+      "causes": {
+        "driver_outdated": 0.50,
+        "disabled_in_settings": 0.25,
+        "cable_disconnected": 0.15,
+        "hardware_failure": 0.10
+      },
+      "confidence": 0.70,
+      "source": "oem_manual",
+      "category": "PC"
+    },
+    {
+      "symptoms": ["screen_flickering", "display_artifacts"],
+      "causes": {
+        "display_cable_loose": 0.55,
+        "gpu_overheating": 0.25,
+        "driver_issue": 0.15,
+        "screen_failing": 0.05
+      },
+      "confidence": 0.75,
+      "source": "oem_manual",
+      "category": "PC"
+    },
+    {
+      "symptoms": ["black_screen", "power_on"],
+      "causes": {
+        "external_monitor_enabled": 0.40,
+        "display_cable_damaged": 0.30,
+        "backlight_failure": 0.20,
+        "gpu_failure": 0.10
+      },
+      "confidence": 0.70,
+      "source": "oem_manual",
+      "category": "PC"
+    },
+    {
+      "symptoms": ["fan_noise", "overheating"],
+      "causes": {
+        "dust_accumulation": 0.60,
+        "fan_bearing_worn": 0.25,
+        "thermal_paste_dry": 0.15
+      },
+      "confidence": 0.80,
+      "source": "oem_manual",
+      "category": "PC"
+    },
+    {
+      "symptoms": ["fan_noise"],
+      "causes": {
+        "dust_accumulation": 0.50,
+        "fan_bearing_worn": 0.35,
+        "fan_failure": 0.15
+      },
+      "confidence": 0.70,
+      "source": "oem_manual",
+      "category": "PC"
+    },
+    {
+      "symptoms": ["random_shutdown"],
+      "causes": {
+        "overheating": 0.45,
+        "power_supply_failing": 0.30,
+        "battery_swelling": 0.15,
+        "ram_failure": 0.10
+      },
+      "confidence": 0.65,
+      "source": "oem_manual",
+      "category": "PC"
+    },
+    {
+      "symptoms": ["hard_drive_issue"],
+      "causes": {
+        "sata_cable_loose": 0.50,
+        "bios_boot_order": 0.25,
+        "drive_failure": 0.20,
+        "power_connector_issue": 0.05
+      },
+      "confidence": 0.75,
+      "source": "oem_manual",
+      "category": "PC"
+    },
+    {
+      "symptoms": ["usb_not_working"],
+      "causes": {
+        "driver_issue": 0.50,
+        "power_management_settings": 0.25,
+        "physical_damage": 0.15,
+        "motherboard_failure": 0.10
+      },
+      "confidence": 0.70,
+      "source": "oem_manual",
+      "category": "PC"
+    },
+    {
+      "symptoms": ["mac_kernel_panic", "grey_screen"],
+      "causes": {
+        "ram_failure": 0.40,
+        "incompatible_software": 0.30,
+        "disk_errors": 0.20,
+        "hardware_failure": 0.10
+      },
+      "confidence": 0.70,
+      "source": "oem_manual",
+      "category": "Mac"
+    },
+    {
+      "symptoms": ["mac_slow_boot", "spinning_wheel"],
+      "causes": {
+        "disk_full": 0.45,
+        "startup_items_excessive": 0.30,
+        "disk_corruption": 0.15,
+        "ram_insufficient": 0.10
+      },
+      "confidence": 0.75,
+      "source": "oem_manual",
+      "category": "Mac"
+    },
+    {
+      "symptoms": ["mac_no_wifi", "network_icon_grayed"],
+      "causes": {
+        "airport_disabled": 0.45,
+        "pram_reset_needed": 0.25,
+        "network_settings_corrupt": 0.20,
+        "wifi_card_failure": 0.10
+      },
+      "confidence": 0.70,
+      "source": "oem_manual",
+      "category": "Mac"
+    },
+    {
+      "symptoms": ["mac_battery_not_charging", "x_symbol"],
+      "causes": {
+        "smc_reset_needed": 0.40,
+        "battery_calibration": 0.25,
+        "charger_failure": 0.20,
+        "battery_dead": 0.15
+      },
+      "confidence": 0.75,
+      "source": "oem_manual",
+      "category": "Mac"
+    },
+    {
+      "symptoms": ["phone_bootloop", "stuck_on_logo"],
+      "causes": {
+        "corrupted_system": 0.50,
+        "failed_update": 0.30,
+        "battery_issue": 0.15,
+        "hardware_failure": 0.05
+      },
+      "confidence": 0.70,
+      "source": "community",
+      "category": "Phone"
+    },
+    {
+      "symptoms": ["phone_not_charging", "charging_slow"],
+      "causes": {
+        "charging_port_dirty": 0.45,
+        "cable_damaged": 0.30,
+        "battery_degraded": 0.20,
+        "charging_ic_failure": 0.05
+      },
+      "confidence": 0.80,
+      "source": "community",
+      "category": "Phone"
+    },
+    {
+      "symptoms": ["phone_screen_not_responding", "touch_dead"],
+      "causes": {
+        "digitizer_failure": 0.50,
+        "software_crash": 0.30,
+        "water_damage": 0.15,
+        "connector_loose": 0.05
+      },
+      "confidence": 0.75,
+      "source": "community",
+      "category": "Phone"
+    },
+    {
+      "symptoms": ["phone_overheating", "battery_drain"],
+      "causes": {
+        "background_apps": 0.40,
+        "defective_battery": 0.30,
+        "processor_malfunction": 0.20,
+        "malware": 0.10
+      },
+      "confidence": 0.65,
+      "source": "community",
+      "category": "Phone"
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "created": "2025-12-05",
+    "total_patterns": 24,
+    "categories": ["PC", "Mac", "Phone"],
+    "description": "Base symptom-to-cause mappings. System will learn and expand these automatically."
+  }
+}

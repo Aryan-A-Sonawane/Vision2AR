@@ -1,0 +1,438 @@
+{
+  "questions": [
+    {
+      "id": "q_power_led",
+      "category": "PC",
+      "text": "Does the power LED light up when you press the power button?",
+      "intent": "check_power_delivery",
+      "expected_signal": "visual",
+      "information_gain_estimate": 0.82,
+      "skip_if": {
+        "brand_confidence": ">0.8",
+        "symptom_present": ["fan_noise", "boot_sound"]
+      },
+      "belief_updates": {
+        "yes": {
+          "power_supply_failure": "*0.1",
+          "motherboard_dead": "*0.2",
+          "power_button_stuck": "*0.1"
+        },
+        "no": {
+          "power_supply_failure": "*3.0",
+          "motherboard_dead": "*2.5",
+          "power_button_stuck": "*2.0"
+        }
+      },
+      "next_if_yes": "q_fan_spinning",
+      "next_if_no": "q_battery_connected"
+    },
+    {
+      "id": "q_fan_spinning",
+      "category": "PC",
+      "text": "Can you hear the fan spinning?",
+      "intent": "check_component_power",
+      "expected_signal": "auditory",
+      "information_gain_estimate": 0.75,
+      "skip_if": {
+        "symptom_present": ["no_fan", "silent"]
+      },
+      "belief_updates": {
+        "yes": {
+          "ram_failure": "*2.0",
+          "display_cable_loose": "*2.5",
+          "gpu_failure": "*1.8"
+        },
+        "no": {
+          "power_supply_failure": "*2.5",
+          "motherboard_dead": "*2.0"
+        }
+      },
+      "next_if_yes": "q_display_test",
+      "next_if_no": "q_power_supply_check"
+    },
+    {
+      "id": "q_boot_logo",
+      "category": "PC",
+      "text": "Do you see the manufacturer logo (Dell/Lenovo/HP) when you turn it on?",
+      "intent": "check_bios_post",
+      "expected_signal": "visual",
+      "information_gain_estimate": 0.85,
+      "skip_if": {
+        "symptom_present": ["black_screen", "no_display"]
+      },
+      "belief_updates": {
+        "yes": {
+          "motherboard_issue": "*0.1",
+          "ram_failure": "*0.3",
+          "boot_sector_corrupt": "*2.5",
+          "os_corruption": "*2.0"
+        },
+        "no": {
+          "motherboard_issue": "*2.0",
+          "ram_failure": "*2.5",
+          "gpu_failure": "*1.8"
+        }
+      },
+      "next_if_yes": "q_error_message",
+      "next_if_no": "q_display_cable"
+    },
+    {
+      "id": "q_error_message",
+      "category": "PC",
+      "text": "Do you see any error message or code on the screen?",
+      "intent": "identify_specific_error",
+      "expected_signal": "visual",
+      "information_gain_estimate": 0.90,
+      "skip_if": {
+        "visual_symptoms_detected": ["error_code", "bsod"]
+      },
+      "belief_updates": {
+        "yes": {
+          "driver_issue": "*2.0",
+          "storage_issue": "*2.0",
+          "os_corruption": "*1.8"
+        },
+        "no": {
+          "hardware_failure": "*1.5"
+        }
+      },
+      "next_if_yes": "q_ask_error_code",
+      "next_if_no": "q_when_issue_started"
+    },
+    {
+      "id": "q_safe_mode_boot",
+      "category": "PC",
+      "text": "Can you boot into Safe Mode? (Press F8 during startup)",
+      "intent": "check_driver_software_issue",
+      "expected_signal": "behavioral",
+      "information_gain_estimate": 0.88,
+      "skip_if": {
+        "symptom_present": ["hardware_failure_detected"]
+      },
+      "belief_updates": {
+        "yes": {
+          "driver_issue": "*3.5",
+          "software_conflict": "*3.0",
+          "malware": "*2.0",
+          "hardware_failure": "*0.1"
+        },
+        "no": {
+          "hardware_failure": "*2.5",
+          "os_corruption": "*2.0"
+        }
+      },
+      "next_if_yes": "q_recent_software_install",
+      "next_if_no": "q_hardware_sounds"
+    },
+    {
+      "id": "q_battery_connected",
+      "category": "PC",
+      "text": "Is the battery connected? Can you try removing and reinserting it?",
+      "intent": "check_battery_connection",
+      "expected_signal": "physical",
+      "information_gain_estimate": 0.65,
+      "skip_if": {
+        "device_type": "desktop"
+      },
+      "belief_updates": {
+        "yes_tried": {
+          "battery_failure": "*1.5",
+          "power_supply_failure": "*2.0"
+        },
+        "no_cant_remove": {
+          "battery_swelling": "*2.0"
+        }
+      },
+      "next_if_yes": "q_ac_adapter_check",
+      "next_if_no": "q_professional_needed"
+    },
+    {
+      "id": "q_display_cable",
+      "category": "PC",
+      "text": "Does the flickering or display issue change when you move the screen?",
+      "intent": "check_physical_connection",
+      "expected_signal": "physical",
+      "information_gain_estimate": 0.78,
+      "skip_if": {
+        "symptom_not_present": ["display_issue", "flickering"]
+      },
+      "belief_updates": {
+        "yes": {
+          "display_cable_loose": "*4.0",
+          "hinge_damage": "*2.5",
+          "display_failure": "*0.5"
+        },
+        "no": {
+          "gpu_failure": "*2.0",
+          "display_panel_issue": "*2.0"
+        }
+      },
+      "next_if_yes": "q_hinge_pressure",
+      "next_if_no": "q_external_monitor"
+    },
+    {
+      "id": "q_external_monitor",
+      "category": "PC",
+      "text": "Can you try connecting to an external monitor? Does it work?",
+      "intent": "isolate_display_vs_gpu",
+      "expected_signal": "visual",
+      "information_gain_estimate": 0.85,
+      "skip_if": {
+        "symptom_not_present": ["display_issue"]
+      },
+      "belief_updates": {
+        "yes_works": {
+          "internal_display_failure": "*4.0",
+          "display_cable_issue": "*3.5",
+          "gpu_failure": "*0.1"
+        },
+        "no_same_issue": {
+          "gpu_failure": "*3.5",
+          "driver_issue": "*2.0"
+        },
+        "no_monitor_available": {
+          "skip": true
+        }
+      },
+      "next_if_yes": "q_display_cable_reseat",
+      "next_if_no": "q_gpu_check"
+    },
+    {
+      "id": "q_overheating_check",
+      "category": "PC",
+      "text": "Does the laptop bottom feel unusually hot to touch?",
+      "intent": "check_thermal_issue",
+      "expected_signal": "physical",
+      "information_gain_estimate": 0.72,
+      "skip_if": {
+        "symptom_present": ["thermal_shutdown", "overheating"]
+      },
+      "belief_updates": {
+        "yes": {
+          "thermal_throttling": "*3.0",
+          "fan_blocked": "*2.5",
+          "thermal_paste_dry": "*2.0"
+        },
+        "no": {
+          "thermal_issue": "*0.2"
+        }
+      },
+      "next_if_yes": "q_fan_noise",
+      "next_if_no": "q_performance_issue"
+    },
+    {
+      "id": "q_fan_noise",
+      "category": "PC",
+      "text": "Is the fan making loud or unusual noises?",
+      "intent": "check_fan_health",
+      "expected_signal": "auditory",
+      "information_gain_estimate": 0.75,
+      "skip_if": {
+        "symptom_present": ["loud_fan"]
+      },
+      "belief_updates": {
+        "yes_loud": {
+          "fan_bearing_worn": "*3.5",
+          "dust_accumulation": "*2.5"
+        },
+        "yes_rattling": {
+          "fan_blade_broken": "*4.0"
+        },
+        "no_silent": {
+          "fan_failure": "*3.0",
+          "fan_controller_issue": "*2.0"
+        }
+      },
+      "next_if_yes": "q_dust_check",
+      "next_if_no": "q_bios_fan_settings"
+    },
+    {
+      "id": "q_recent_changes",
+      "category": "PC",
+      "text": "Did you install any new software, drivers, or hardware recently?",
+      "intent": "identify_trigger_event",
+      "expected_signal": "historical",
+      "information_gain_estimate": 0.80,
+      "skip_if": {},
+      "belief_updates": {
+        "yes_software": {
+          "driver_conflict": "*3.0",
+          "software_incompatibility": "*2.5"
+        },
+        "yes_hardware": {
+          "hardware_incompatibility": "*3.0",
+          "installation_error": "*2.0"
+        },
+        "no": {
+          "gradual_failure": "*2.0"
+        }
+      },
+      "next_if_yes": "q_rollback_possible",
+      "next_if_no": "q_when_started"
+    },
+    {
+      "id": "q_intermittent",
+      "category": "PC",
+      "text": "Does the problem occur every time, or only sometimes?",
+      "intent": "check_consistency",
+      "expected_signal": "behavioral",
+      "information_gain_estimate": 0.70,
+      "skip_if": {},
+      "belief_updates": {
+        "always": {
+          "hardware_failure": "*2.0",
+          "permanent_damage": "*1.8"
+        },
+        "sometimes": {
+          "thermal_issue": "*2.0",
+          "loose_connection": "*2.5",
+          "software_bug": "*1.5"
+        }
+      },
+      "next_if_yes": "q_pattern_recognition",
+      "next_if_no": "q_hardware_test"
+    },
+    {
+      "id": "q_mac_smc_reset",
+      "category": "Mac",
+      "text": "Have you tried resetting the SMC (System Management Controller)?",
+      "intent": "check_basic_troubleshooting",
+      "expected_signal": "historical",
+      "information_gain_estimate": 0.75,
+      "skip_if": {},
+      "belief_updates": {
+        "yes_fixed": {
+          "smc_issue": "*5.0",
+          "problem_resolved": true
+        },
+        "yes_no_change": {
+          "hardware_failure": "*1.8"
+        },
+        "no_not_tried": {
+          "suggest_smc_reset": true
+        }
+      },
+      "next_if_yes": "q_mac_pram_reset",
+      "next_if_no": "q_mac_issue_details"
+    },
+    {
+      "id": "q_mac_pram_reset",
+      "category": "Mac",
+      "text": "Have you tried resetting PRAM/NVRAM?",
+      "intent": "check_settings_reset",
+      "expected_signal": "historical",
+      "information_gain_estimate": 0.72,
+      "skip_if": {},
+      "belief_updates": {
+        "yes_fixed": {
+          "nvram_corruption": "*5.0",
+          "problem_resolved": true
+        },
+        "yes_no_change": {
+          "hardware_failure": "*1.5"
+        },
+        "no_not_tried": {
+          "suggest_pram_reset": true
+        }
+      },
+      "next_if_yes": "q_mac_hardware_test",
+      "next_if_no": "q_mac_boot_mode"
+    },
+    {
+      "id": "q_mac_safe_boot",
+      "category": "Mac",
+      "text": "Can you boot into Safe Mode? (Hold Shift during startup)",
+      "intent": "check_software_conflict",
+      "expected_signal": "behavioral",
+      "information_gain_estimate": 0.85,
+      "skip_if": {},
+      "belief_updates": {
+        "yes_works": {
+          "kernel_extension_issue": "*3.5",
+          "login_items_conflict": "*2.5",
+          "hardware_failure": "*0.2"
+        },
+        "no": {
+          "disk_corruption": "*2.5",
+          "hardware_failure": "*2.0"
+        }
+      },
+      "next_if_yes": "q_mac_login_items",
+      "next_if_no": "q_mac_disk_utility"
+    },
+    {
+      "id": "q_phone_force_restart",
+      "category": "Phone",
+      "text": "Have you tried force restarting the phone?",
+      "intent": "check_basic_troubleshooting",
+      "expected_signal": "historical",
+      "information_gain_estimate": 0.80,
+      "skip_if": {},
+      "belief_updates": {
+        "yes_fixed": {
+          "software_crash": "*5.0",
+          "problem_resolved": true
+        },
+        "yes_no_change": {
+          "hardware_failure": "*2.0"
+        },
+        "no_not_tried": {
+          "suggest_force_restart": true
+        }
+      },
+      "next_if_yes": "q_phone_factory_reset",
+      "next_if_no": "q_phone_charging_status"
+    },
+    {
+      "id": "q_phone_charging_port",
+      "category": "Phone",
+      "text": "Have you checked if the charging port is clean? (No lint or debris)",
+      "intent": "check_physical_obstruction",
+      "expected_signal": "physical",
+      "information_gain_estimate": 0.78,
+      "skip_if": {
+        "symptom_not_present": ["charging_issue"]
+      },
+      "belief_updates": {
+        "yes_clean": {
+          "cable_issue": "*2.0",
+          "battery_failure": "*1.8"
+        },
+        "no_dirty": {
+          "port_obstruction": "*4.0",
+          "suggest_cleaning": true
+        }
+      },
+      "next_if_yes": "q_phone_cable_test",
+      "next_if_no": "q_phone_clean_port"
+    },
+    {
+      "id": "q_phone_water_damage",
+      "category": "Phone",
+      "text": "Has the phone been exposed to water or liquid recently?",
+      "intent": "check_liquid_damage",
+      "expected_signal": "historical",
+      "information_gain_estimate": 0.85,
+      "skip_if": {},
+      "belief_updates": {
+        "yes": {
+          "water_damage": "*5.0",
+          "corrosion": "*3.0",
+          "short_circuit": "*2.5"
+        },
+        "no": {
+          "water_damage": "*0.1"
+        }
+      },
+      "next_if_yes": "q_phone_rice_treatment",
+      "next_if_no": "q_phone_other_damage"
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "created": "2025-12-05",
+    "total_questions": 20,
+    "categories": ["PC", "Mac", "Phone"],
+    "description": "Base diagnostic questions with skip logic and belief updates. System will generate new questions from successful resolutions."
+  }
+}
